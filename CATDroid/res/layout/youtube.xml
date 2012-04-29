@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/layout/youtube.xml -->
+
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:orientation="vertical" 
+>
+
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="0dp" 
+		android:layout_weight="1" 
+		android:orientation="vertical" 
+	>
+
+<!-- 		See: http://stackoverflow.com/questions/2562051/listview-item-background-via-custom-selector -->
+		<ListView 
+			android:id="@android:id/list" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent" 
+			android:cacheColorHint="@color/black" 
+			android:fastScrollEnabled="false" 
+			android:scrollingCache="true" 
+			android:listSelector="@drawable/list_selector" 
+		/>
+
+		<TextView 
+			android:id="@android:id/empty" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="@string/busy_downloading" 
+			android:textAppearance="?android:attr/textAppearanceMedium" 
+		/>
+
+	</LinearLayout>
+
+	<View 
+		android:layout_width="fill_parent" 
+		android:layout_height="2dp" 
+		android:background="@color/white" 
+		android:layout_marginBottom="2dp" 
+	/>
+
+	<Button 
+		android:id="@+id/buttonClose" 
+		android:text="@string/close" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+	/>
+
+</LinearLayout>

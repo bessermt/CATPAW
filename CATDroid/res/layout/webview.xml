@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/layout/profile.xml -->
+
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:orientation="vertical" 
+	android:background="@color/white" 
+>
+
+	<WebView 
+		android:id="@+id/webview" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_weight="1" 
+	/>
+
+	<View 
+		android:id="@+id/bottomDiv" 
+		android:layout_width="fill_parent" 
+		android:layout_height="2dp" 
+		android:background="@color/black" 
+	/>
+
+	<Button 
+		android:id="@+id/buttonClose" 
+		android:text="@string/close" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+	/>
+
+</LinearLayout>

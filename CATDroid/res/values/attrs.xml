@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/values/attrs.xml -->
+
+<resources>
+
+	<declare-styleable name="M9LGallery">
+		<attr name="android:galleryItemBackground" />
+	</declare-styleable>
+
+	<declare-styleable name="CustomTextView">
+		<attr name="angle" format="integer" />
+	</declare-styleable>
+
+</resources>

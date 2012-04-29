@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/values-es/mym_strings.xml -->
+
+<resources>
+
+	<string name="meet_your_match">Conoce Tu Pareja<sup>®</sup></string>
+	<string name="aspca_ack"><a href="http://www.aspca.org/adoption/meet-your-match/">Meet Your Match</a><sup>®</sup> es un programa de <a href="http://www.aspca.org/">ASPCA</a><sup>®</sup></string>
+	<string name="score">Calificación</string>
+	<string name="survey">Encuesta</string>
+
+	<!--  Scales Valiance/Social -->
+
+	<string name="discreet">Discreto</string>
+	<string name="sensible">Sensato</string>
+	<string name="valiant">Valiente</string>
+
+	<string name="independent">Independiente</string>
+	<string name="social">Social</string>
+	<string name="gregarious">Gregario</string>
+
+	<!--  Feline-alities -->
+
+	<string name="v1_s1_pi_title">Investigador Privado</string>
+	<string name="v1_s2_admirer_title">Admirador Secreto</string>
+	<string name="v1_s3_lovebug_title">Mimoso</string>
+	<string name="v2_s1_executive_title">El Ejecutivo</string>
+	<string name="v2_s2_sidekick_title">Compinche</string>
+	<string name="v2_s3_assistant_title">Asistente Personal</string>
+	<string name="v3_s1_mvp_title">Jugador Más Valioso</string>
+	<string name="v3_s2_party_title">Fiestero</string>
+	<string name="v3_s3_leader_title">Líder del Grupo</string>
+
+	<string name="v1_s1_pi_desc">Trabajo en secreto para vigilarte a ti y a tu hogar. Ni siquiera sabrás que te vigilan. Puedo desaparecer si alguien o algo interfiere en mi investigación. Si necesitas un gato que sepa cómo no meterse en problemas y que siempre guarde tus secretos, podría tomar tu caso.</string>
+	<string name="v1_s2_admirer_desc">Cuando se trata de relaciones, soy muy sensato. No me lanzo de cabeza, ¿me entiendes? Pero, dame un poco de tiempo y te llenaré de ronroneos, caricias y me acurrucaré en tu regazo. Entretanto, no me verás mucho, pero yo sí pensaré mucho en ti.</string>
+	<string name="v1_s3_lovebug_desc">¿Necesitas cariño? ¡Yo sí! Si también te agradan las caricias, el ronroneo y las cosquillitas en el regazo, creo que tenemos MUCHO en común. Busco a “alguien que disfrute de momentos de tranquilidad y compañía”. ¿Puedes ser esa persona?</string>
+	<string name="v2_s1_executive_desc">Debo decir que soy un gato ocupado. Primero, debo mirar por la ventana para saber qué sucede allí afuera. Luego, debo verificar si es necesario hurgar en los armarios y las alacenas. Y luego, tengo que dormir siestas... no puedo perdérmelas. Puedo hacer un lugarcito en mi agenda para socializar un poco. ¿Organizamos un desayuno o una cena? Espero que te guste la comida de gato.</string>
+	<string name="v2_s2_sidekick_desc">Como todo compinche, soy simplemente una buena compañía.  Me gusta que me presten atención y también tener mis momentos de soledad. No me meto en problemas, pero tampoco soy cobarde.  Si buscas un compañero estable con quien compartir tu vida, no busques más.</string>
+	<string name="v2_s3_assistant_desc">¿Estás trabajando con la computadora? Déjame presionar las teclas. ¿Estás leyendo el periódico? Sostendré las páginas por ti. ¿Estás mirando televisión? Me subiré a tu regazo para que me acaricies. Adoro vivir en un hogar ordenado, tú también, ¿verdad? Colaboraré con las tareas y te ayudaré a relajarte cuando terminemos. Te preguntarás cómo hacías para vivir antes de tenerme.</string>
+	<string name="v3_s1_mvp_desc">Soy un gato inteligente que se las sabe todas. También soy bastante tranquilo. No me molesta jugar solo, pero una compañía humana del otro lado del sofá y una cosquilla detrás de las orejas siempre me alegran el día. Si buscas añadir un miembro ingenioso a tu equipo, considera contratar al minino más valioso.</string>
+	<string name="v3_s2_party_desc">Soy un gato que tiene una misión: ¡DIVERTIRSE! Me encanta jugar, explorar y probar mis límites. Me encantaría jugar contigo aunque también puedo divertirme fácilmente con cualquier objeto: lápices, notas adhesivas, patatas. Si quieres una compañía con quien reírte y alguien para animar la fiesta, puedes invitarme.</string>
+	<string name="v3_s3_leader_desc">Soy un gato que hace todo a lo grande. No sólo tiendo a participar de todo... también me gusta liderar. Soy un gato aventurero, pero aún así dedicaré mucho tiempo para demostrarte mi lado afectuoso. Podría decirse que soy un gato expresivo. ¿Quieres un gato que rebose seguridad? Ése soy yo.</string>
+
+	<string name="undecided_title">Encuesta</string>
+	<string name="undecided_desc">Tome la encuesta de Conoce tu Pareja y descubre tu 
+	    \n<a href="http://catadoptionteam.org/feline-alities-for-cat-cats"><b>Felino-alidad</b></a><sup><small><small>TM</small></small></sup>
+	    \n\nCompletar la encuesta le ayudará a encontrar un gato que mejor se adapte a su estilo de vida.
+	</string>
+
+	<!-- Common Answers: -->
+
+	<string name="somewhat">Un poco</string>
+	<string name="little_time">Poco tiempo</string>
+	<string name="some_time">Algún tiempo</string>
+	<string name="often">Mucho tiempo</string>
+	<string name="most_time">La mayor parte del tiempo</string>
+	<string name="all_time">Todo el tiempo</string>
+
+
+	<!-- Q & A: -->
+
+	<string name="q1">Considero que mi hogar es como</string>
+	<string name="q1a1">Una biblioteca</string>
+	<string name="q1a2">El medio de la calle</string>
+	<string name="q1a3">Un carnaval</string>
+
+	<string name="q2">Me gusta un gato al que le guste jugar “atrapa mis tobillos” y otros juegos similares.</string>
+	<string name="q2a1">@string/no</string>
+	<string name="q2a2">@string/somewhat</string>
+	<string name="q2a3">@string/yes</string>
+
+	<string name="q3">Quiero que mi gato interactúe con quienes vienen a mi casa.</string>
+	<string name="q3a1">@string/little_time</string>
+	<string name="q3a2">@string/some_time</string>
+	<string name="q3a3">@string/all_time</string>
+
+	<string name="q4">¿Cómo te sientes con un gato travieso que se mete en todo?</string>
+	<string name="q4a1">Me gustan, pero prefiero no vivir con ellos</string>
+	<string name="q4a2">Depende de la situación</string>
+	<string name="q4a3">Está bien</string>
+
+	<string name="q5">Mi gato necesita poder adaptarse a las nuevas situaciones rápidamente.</string>
+	<string name="q5a1">No es importante</string>
+	<string name="q5a2">@string/somewhat</string>
+	<string name="q5a3">@string/yes</string>
+
+	<string name="q6">Quiero que a mi gato le guste estar con niños en la casa.</string>
+	<string name="q6a1">No es importante si a mi gato le gusta estar con niños o no</string>
+	<string name="q6a2">@string/some_time</string>
+	<string name="q6a3">@string/most_time</string>
+	<string name="q6a4">No suelen venir niños a casa</string>
+
+	<!-- ================================================================= -->
+
+	<string name="q7">Mi gato necesita poder estar solo.</string>
+	<string name="q7a1">Más de 9 horas por día</string>
+	<string name="q7a2">De 4 a 8 horas por día</string>
+	<string name="q7a3">Menos de 4 horas por día</string>
+
+	<string name="q8">Cuando estoy en casa, quiero que mi gato esté a mi lado o en mi regazo.</string>
+	<string name="q8a1">@string/little_time</string>
+	<string name="q8a2">@string/some_time</string>
+	<string name="q8a3">@string/all_time</string>
+
+	<string name="q9">Quiero que a mi gato le guste que lo tengan en brazos.</string>
+	<string name="q9a1">@string/little_time</string>
+	<string name="q9a2">@string/some_time</string>
+	<string name="q9a3">@string/most_time</string>
+
+	<!-- ================================================================= -->
+
+	<string name="q10">Necesito que mi gato se lleve bien con (marca con un círculo lo que corresponda):</string>
+	<string name="q10a1">Perros</string>
+	<string name="q10a2">Gatos</string>
+	<string name="q10a3">Pájaros</string>
+	<string name="q10a4">Otros:</string>
+
+	<string name="q11">Mi gato estará</string>
+	<string name="q11a1">Adentro</string>
+	<string name="q11a2">Adentro y afuera</string>
+	<string name="q11a3">Afuera</string>
+
+	<string name="q12">He vivido con gatos anteriormente.</string>
+	<string name="q12a1">@string/no</string>
+	<string name="q12a3">@string/yes</string>
+	<string name="q12a3when">¿Fecha?</string>
+	<string name="q12a4">Actualmente</string>
+
+	<string name="q13">Prefiero que mi gato sea conversador.</string>
+	<string name="q13a1">@string/no</string>
+	<string name="q13a3">@string/yes</string>
+	<string name="q13a4">No es importante si mi gato es conversador</string>
+
+	<string name="q14">Quiero que mi gato juegue con juguetes.</string>
+	<string name="q14a1">@string/little_time</string>
+	<string name="q14a2">@string/some_time</string>
+	<string name="q14a3">@string/often</string>
+
+	<string name="q15">Prefiero que mi gato sea activo.</string>
+	<string name="q15a1">No muy activo</string>
+	<string name="q15a2">Algo activo</string>
+	<string name="q15a3">Muy activo</string>
+
+	<string name="q16">Lo más importante para mí es que mi gato:</string>
+
+	<string name="tie_question">¿Que mejor describe a su gato ideal?</string>
+	<string name="select_radio">Sus respuestas indican que sería compatible con más de una Felino-alidad<sup><small><small>TM</small></small></sup>. 
+		\n\nSeleccione una de las opciones de la izquierda para leer una descripción detallada. 
+		\n\nCuando termine, pulse <b>OK</b> para confirmar su elección.
+	</string>
+
+</resources>

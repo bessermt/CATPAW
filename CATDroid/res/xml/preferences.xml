@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/xml/preferences.xml -->
+
+<PreferenceScreen 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+>
+
+	<CheckBoxPreference 
+		android:key="@string/preference_key_enable_m9l_hint" 
+		android:title="@string/game_hint" 
+		android:summary="@string/m9l_hint_preference_summary" 
+		android:defaultValue="true" 
+	/>
+
+	<CheckBoxPreference 
+		android:key="@string/preference_key_enable_notification" 
+		android:title="@string/notifications" 
+		android:summary="@string/notification_preference_summary" 
+		android:defaultValue="true" 
+	/>
+
+	<org.catadoptionteam.catdroid.TimePickerPreference 
+		android:key="@string/preference_key_update_time" 
+		android:title="@string/update_time" 
+		android:dialogTitle="@string/update_time_title" 
+		android:summary="@string/update_time_preference_summary" 
+		android:negativeButtonText="@string/cancel" 
+		android:positiveButtonText="@string/ok" 
+	/>
+<!-- consider http://code.google.com/p/android/issues/detail?id=5483  -->
+
+</PreferenceScreen>

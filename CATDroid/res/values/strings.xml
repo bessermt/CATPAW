@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/values/strings.xml -->
+
+<resources>
+	<string name="info_message">Written by Cat Adoption Team volunteer Mitch Besser.
+		\n\nCAT is a non-profit cat-only animal shelter.
+		\n\nAvailable as 100% Free Open Source for all non-profit animal shelters.
+	</string>
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+	<string name="close">Close</string>
+	<string name="help">Help</string>
+	<string name="no">No</string>
+	<string name="yes">Yes</string>
+	<string name="and">and</string>
+	<string name="pause">Pause</string>
+	<string name="reset">Reset</string>
+	<string name="refresh">Refresh</string>
+	<string name="all">All</string>
+	<string name="only">Only</string>
+	<string name="none">None</string>
+	<string name="clear">Clear</string>
+	<string name="email">Email</string>
+	<string name="phone">Phone</string>
+	<string name="map">Map</string>
+	<string name="web">Web</string>
+	<string name="cotd">Cat of the Day</string>
+	<string name="m9l">Match-9-Lives Game</string>
+	<string name="mym">Meet Your Match Survey</string>
+	<string name="search">Search</string>
+	<string name="cattube">Cat Videos</string>
+	<string name="hrs_locs">Hours &amp; Locations</string>
+	<string name="shelter_is">Shelter Is</string>
+	<string name="open">Open</string>
+	<string name="closed">Closed</string>
+	<string name="info">Info</string>
+	<string name="description">Description</string>
+	<string name="filter">Filter</string>
+	<string name="sort">Sort</string>
+	<string name="arrival">Arrival</string>
+	<string name="name">Name</string>
+	<string name="recent">Recent</string>
+	<string name="age">Age</string>
+	<string name="baby">Baby</string>
+	<string name="young">Young</string>
+	<string name="kitten">Kitten</string>
+	<string name="teenage">Teenage</string>
+	<string name="adult">Adult</string>
+	<string name="senior">Senior</string>
+	<string name="sex">Sex</string>
+	<string name="both">Both</string>
+	<string name="male">Male</string>
+	<string name="female">Female</string>
+	<string name="size">Size</string>
+	<string name="small">S</string>
+	<string name="medium">M</string>
+	<string name="large">L</string>
+	<string name="xlarge">XL</string>
+	<string name="small_text">Small</string>
+	<string name="medium_text">Medium</string>
+	<string name="large_text">Large</string>
+	<string name="xlarge_text">X-Large</string>
+	<string name="breeds_colors">Breeds and Colors</string>
+	<string name="i_have">I Have</string>
+	<string name="cats">Cats</string>
+	<string name="dislike_cats">I Don\'t Like Cats</string>
+	<string name="dogs">Dogs</string>
+	<string name="dislike_dogs">I Don\'t Like Dogs</string>
+	<string name="kids">Kids</string>
+	<string name="dislike_kids">I\'m Afraid of Small Children</string>
+	<string name="i_welcome_special_needs_pets">I Welcome Special Needs Pets</string>
+	<string name="ask_about_my_special_needs">Ask About My Special Needs</string>
+	<string name="declawed">Declawed</string>
+	<string name="i_am_declawed">I Am Declawed</string>
+	<string name="notify">Notify</string>
+	<string name="favorite">Favorite</string>
+	<string name="favorites">Favorites</string>
+	<string name="unknown">Unknown</string>
+	<string name="unknown_sex">Unknown Sex</string>
+	<string name="unknown_age">Unknown Age</string>
+	<string name="unknown_size">Unknown Size</string>
+	<string name="unknown_breed">Unknown Breed</string>
+	<string name="unknown_felineality">Unknown Felineality</string>
+	<string name="preferences">Preferences</string>
+	<string name="general_settings">General Settings</string>
+	<string name="account_settings">Account Settings</string>
+	<string name="account_preference_summary">Update frequency, notifications, &#8230;</string>
+	<string name="notifications">Notifications</string>
+	<string name="preference_key_enable_notification">Enable Notification</string>
+	<string name="app_notification_id">notification_id</string>
+	<string name="notification_preference_summary">Show notifications</string>
+	<string name="preference_key_enable_m9l_hint">Enable Match-9-Lives Hints</string>
+	<string name="game_hint">Game Hints</string>
+	<string name="m9l_hint_preference_summary">Show Match-9-Lives game hints</string>
+	<string name="preference_key_update_time">update time</string>
+	<string name="update_time">Update Time</string>
+	<string name="update_time_title">Select Update Time</string>
+	<string name="update_time_preference_summary">Time of day to update information.</string>
+	<string name="refresh_message">Are you sure you want to refresh all the application data?</string>
+	<string name="pet_id">Pet ID</string>
+	<string name="mpm">Multiple Possible Matches</string>
+	<string name="category">Category</string>
+	<string name="chart">Chart</string>
+	<string name="felineality_category">Felineality Category</string>
+	<string name="your_felineality">Your Felineality</string>
+	<string name="felineality_chart">Felineality Chart</string>
+	<string name="biography">Biography</string>
+	<string name="valuable_coupon">Valuable Coupon from CAT</string>
+	<string name="coupon_text">Show this e-coupon and get $20 off your next adult cat adoption from CAT. \n\nValid on one adult cat adoption. \n\nCannot be combined with other discounts. \n\nLimit one per family. \n\nPromo Code: APAC02</string>
+	<string name="photo">Photo&#8230;</string>
+	<string name="m9l_help_message">Match the cats with their Feline-ality<sup><small><small>TM</small></small></sup> icon. 
+		\n\n<b>Press <u>and Hold</u></b> the photos and icons for clues. 
+		\n\nLine up your guess in the center column then press the \"Match\" button. 
+		\n\nPress the phone\'s Menu button to view this help again. 
+		\n\nTip: <i>Don\'t judge a cat by its color.</i>
+	</string>
+	<string name="more_help">More Help&#8230;</string>
+	<string name="game_paused">Game Paused</string>
+	<string name="match">Match</string>
+	<string name="matches">Matches</string>
+	<string name="new_game">New Game</string>
+	<string name="game_over">Game Over</string>
+	<string name="best_time"><b>Best Time!</b></string>
+	<string name="least_guesses"><b>Least Guesses!</b></string>
+	<string name="high_score">High Score</string>
+	<string name="high_score_best_time">Best Time:</string>
+	<string name="high_score_least_guesses">Least Guesses:</string>
+	<string name="time">Time</string>
+	<string name="match_per_guess">Match/Guess</string>
+	<string name="no_match">No Matches</string>
+	<string name="one_match">One Matched</string>
+	<string name="all_match">All Match!</string>
+	<string name="initializing">Initializing</string>
+	<string name="wait_msg">Please wait&#8230; \nThis may take up to 10 minutes.</string>
+	<string name="no_data">No data currently available&#8230; \nPlease try again later.</string>
+	<string name="no_pets_found">No pets found. \n\nPlease try again later.</string>
+	<string name="no_pets_match">No pets found. \n\nPlease adjust your filter or try again later.</string>
+	<string name="no_pets_favorite">No Favorite Pets Selected.</string>
+	<string name="view_matches">View Matches&#8230;</string>
+	<string name="busy_downloading">Busy Downloading&#8230; \nPlease try again later.</string>
+	<string name="suggest_survey">Please take the \n<b>Meet Your Match Survey</b></string>
+	<string name="sdcard_unavailable">SD Card currently unavailable.  Please insert SD Card and try again.</string>
+	<string name="feature_unavailable">Feature not currently available.  Please try again or contact the shelter for assistance.</string>
+	<string name="no_translation">The translation from English to Spanish is not currently available. Please use a translation program or contact the shelter for assistance.</string>
+	<string name="mym_perfect">Meet Your Purrfect Match!</string>
+	<string name="pet_search">Pet Search</string>
+	<string name="my_matches">My Matches&#8230;</string>
+	<string name="new_pet_match_found">New Pet Match Found.</string>
+	<string name="thumbnail_desc">Thumbnail photo</string>
+</resources>

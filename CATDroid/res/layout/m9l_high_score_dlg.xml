@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/layout/m9l_high_score_dlg.xml -->
+
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:orientation="vertical" 
+>
+
+	<TableLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:stretchColumns="1" 
+	>
+
+		<TableRow>
+
+			<TextView 
+				android:text="@string/high_score_best_time" 
+				android:gravity="right" 
+				android:padding="6sp" 
+			/>
+
+			<TextView 
+				android:id="@+id/best_time" 
+				android:gravity="left" 
+			/>
+
+		</TableRow>
+
+		<TableRow>
+
+			<TextView 
+				android:text="@string/high_score_least_guesses" 
+				android:gravity="right" 
+				android:padding="6sp" 
+			/>
+
+			<TextView 
+				android:id="@+id/least_guesses" 
+				android:gravity="left" 
+			/>
+
+		</TableRow>
+
+	</TableLayout>
+
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal" 
+	>
+
+		<Button 
+			android:id="@+id/buttonReset" 
+			android:text="@string/reset" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+		/>
+
+		<Button 
+			android:id="@+id/buttonOK" 
+			android:text="@string/ok" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+		/>
+
+	</LinearLayout>
+
+</LinearLayout>

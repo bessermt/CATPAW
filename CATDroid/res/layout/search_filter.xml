@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/layout/search_filter.xml -->
+
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:orientation="vertical" 
+>
+
+	<ScrollView 
+		android:layout_width="fill_parent" 
+		android:layout_height="0dp" 
+		android:layout_weight="1" 
+		android:orientation="vertical" 
+	>
+
+		<LinearLayout 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:orientation="vertical" 
+		>
+
+			<TextView 
+				android:text="@string/sort" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:textAppearance="?android:attr/textAppearanceLarge" 
+			/>
+
+			<RadioGroup 
+				android:id="@+id/radioGroupSort" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:orientation="horizontal" 
+			>
+
+				<RadioButton 
+					android:id="@+id/radioButtonSortArrival" 
+					android:text="@string/arrival" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/radioButtonSortName" 
+					android:text="@string/name" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/radioButtonSortRecent" 
+					android:text="@string/recent" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+				/>
+
+			</RadioGroup>
+
+			<View 
+				style="@style/FadeDivider" 
+			/>
+
+			<TextView 
+				android:id="@+id/textAge" 
+				android:text="@string/age" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:textAppearance="?android:attr/textAppearanceLarge" 
+				android:textColor="@color/filter_text_selector" 
+			/>
+
+			<LinearLayout 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:orientation="horizontal" 
+			>
+
+				<CheckBox 
+					android:id="@+id/checkBoxAgeBaby" 
+					android:text="@string/baby" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+				/>
+
+				<CheckBox 
+					android:id="@+id/checkBoxAgeYoung" 
+					android:text="@string/young" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+				/>
+
+			</LinearLayout>
+
+			<LinearLayout 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:orientation="horizontal" 
+			>
+
+				<CheckBox 
+					android:id="@+id/checkBoxAgeAdult" 
+					android:text="@string/adult" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+				/>
+
+				<CheckBox 
+					android:id="@+id/checkBoxAgeSenior" 
+					android:text="@string/senior" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+				/>
+
+			</LinearLayout>
+
+			<TextView 
+				android:text="@string/sex" 
+				android:layout_width="fill_parent" 
+				android:layout_height="fill_parent" 
+				android:textAppearance="?android:attr/textAppearanceLarge" 
+				android:paddingTop="10dp" 
+			/>
+
+			<RadioGroup 
+				android:id="@+id/radioGroupSex" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:orientation="horizontal" 
+			>
+
+				<RadioButton 
+					android:id="@+id/radioButtonSexBoth" 
+					android:text="@string/both" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/radioButtonSexMale" 
+					android:text="@string/male" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/radioButtonSexFemale" 
+					android:text="@string/female" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+				/>
+
+			</RadioGroup>
+
+			<TextView 
+				android:id="@+id/textSize" 
+				android:text="@string/size" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:textAppearance="?android:attr/textAppearanceLarge" 
+				android:textColor="@color/filter_text_selector" 
+				android:paddingTop="10dp" 
+			/>
+
+			<LinearLayout 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:orientation="horizontal" 
+			>
+
+				<CheckBox 
+					android:id="@+id/checkBoxSizeSmall" 
+					android:text="@string/small" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+				/>
+
+				<CheckBox 
+					android:id="@+id/checkBoxSizeMedium" 
+					android:text="@string/medium" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+				/>
+
+				<CheckBox 
+					android:id="@+id/checkBoxSizeLarge" 
+					android:text="@string/large" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+				/>
+
+				<CheckBox 
+					android:id="@+id/checkBoxSizeXLarge" 
+					android:text="@string/xlarge" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+				/>
+
+			</LinearLayout>
+
+			<Button 
+				android:id="@+id/buttonBreedsColors" 
+				android:text="@string/breeds_colors" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:textAppearance="?android:attr/textAppearanceLarge" 
+				android:background="@android:drawable/btn_dropdown" 
+				android:layout_marginTop="10dp" 
+				android:layout_marginLeft="2dp" 
+				android:layout_marginRight="2dp" 
+			/>
+
+			<TextView 
+				android:id="@+id/textIHave" 
+				android:text="@string/i_have" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:textAppearance="?android:attr/textAppearanceLarge" 
+				android:textColor="@color/filter_text_selector" 
+				android:paddingTop="10dp" 
+			/>
+
+			<LinearLayout 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:orientation="horizontal" 
+			>
+
+				<CheckBox 
+					android:id="@+id/checkBoxIHaveCats" 
+					android:text="@string/cats" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+				/>
+
+				<CheckBox 
+					android:id="@+id/checkBoxIHaveDogs" 
+					android:text="@string/dogs" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+				/>
+
+				<CheckBox 
+					android:id="@+id/checkBoxIHaveKids" 
+					android:text="@string/kids" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+				/>
+
+			</LinearLayout>
+
+			<TextView 
+				android:text="@string/i_welcome_special_needs_pets" 
+				android:layout_width="fill_parent" 
+				android:layout_height="fill_parent" 
+				android:textAppearance="?android:attr/textAppearanceLarge" 
+				android:paddingTop="10dp" 
+			/>
+
+			<RadioGroup 
+				android:id="@+id/radioGroupSpecialNeeds" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:orientation="horizontal" 
+			>
+
+				<RadioButton 
+					android:id="@+id/radioButtonSpecialNeedsYes" 
+					android:text="@string/yes" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/radioButtonSpecialNeedsNo" 
+					android:text="@string/no" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/radioButtonSpecialNeedsOnly" 
+					android:text="@string/only" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+				/>
+
+			</RadioGroup>
+
+			<TextView 
+				android:text="@string/declawed" 
+				android:layout_width="fill_parent" 
+				android:layout_height="fill_parent" 
+				android:textAppearance="?android:attr/textAppearanceLarge" 
+				android:paddingTop="10dp" 
+			/>
+
+			<RadioGroup 
+				android:id="@+id/radioGroupDeclawed" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:orientation="horizontal" 
+			>
+
+				<RadioButton 
+					android:id="@+id/radioButtonDeclawedAll" 
+					android:text="@string/all" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+
+					android:checked="true" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/radioButtonDeclawedYes" 
+					android:text="@string/yes" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/radioButtonDeclawedNo" 
+					android:text="@string/no" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+				/>
+
+			</RadioGroup>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+	<View 
+		android:layout_width="fill_parent" 
+		android:layout_height="2dp" 
+		android:background="@color/white" 
+		android:layout_marginBottom="2dp" 
+	/>
+
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_gravity="bottom" 
+		android:orientation="horizontal" 
+		android:paddingTop="10dp" 
+	>
+
+		<CheckBox 
+			android:id="@+id/checkBoxNotify" 
+			android:text="@string/notify" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:textAppearance="?android:attr/textAppearanceLarge" 
+			android:paddingRight="10dp" 
+		/>
+
+		<Button 
+			android:id="@+id/buttonMyMatches" 
+			android:text="@string/my_matches" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:layout_gravity="right" 
+		/>
+
+	</LinearLayout>
+
+	<!-- 	Invisible Placeholder to align the scrolling area above the bottom button. -->
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_gravity="bottom" 
+		android:orientation="vertical" 
+		android:visibility="invisible" 
+	>
+
+		<View 
+			android:layout_width="fill_parent" 
+			android:layout_height="2dp" 
+			android:background="@color/white" 
+			android:layout_marginBottom="2dp" 
+		/>
+
+		<Button 
+			android:text="@string/close" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+		/>
+
+	</LinearLayout>
+
+</LinearLayout>

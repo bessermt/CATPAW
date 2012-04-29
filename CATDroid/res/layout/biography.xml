@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/layout/biography.xml -->
+
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:orientation="vertical" 
+>
+
+	<RelativeLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="120dp" 
+		android:background="@color/white" 
+	>
+
+		<FrameLayout 
+			android:id="@+id/framePhoto" 
+			android:layout_width="120dp" 
+			android:layout_height="fill_parent" 
+			android:layout_alignParentLeft="true" 
+			android:layout_alignParentTop="true" 
+			android:layout_alignParentBottom="true" 
+		>
+
+			<ImageButton 
+				android:id="@+id/imagePhoto" 
+				android:layout_width="fill_parent" 
+				android:layout_height="fill_parent" 
+				android:layout_gravity="center" 
+				android:padding="1dp" 
+				android:scaleType="centerInside" 
+				android:adjustViewBounds="true" 
+				android:background="@color/MYM_gray" 
+				android:src="@drawable/missing_photo"
+			/>
+
+			<ImageView 
+				android:id="@+id/imageAdopted" 
+				android:src="@drawable/adopted" 
+				android:layout_width="fill_parent" 
+				android:layout_height="fill_parent" 
+				android:adjustViewBounds="true" 
+			/>
+
+		</FrameLayout>
+
+		<TextView 
+			android:id="@+id/textAgeSex" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:layout_alignParentTop="true" 
+			android:layout_toRightOf="@id/framePhoto"
+			android:gravity="center_horizontal" 
+			android:textColor="@color/white" 
+			android:text="@string/unknown" 
+			android:background="@color/MYM_gray" 
+		/>
+
+		<TextView 
+			android:id="@+id/textASPCAality" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:layout_alignParentBottom="true" 
+			android:layout_toRightOf="@id/framePhoto" 
+			android:gravity="center_horizontal" 
+			android:textColor="@color/white" 
+			android:clickable="true" 
+
+			android:background="@color/MYM_gray" 
+			android:text="@string/unknown" 
+		/>
+
+		<TextView 
+			android:id="@+id/textName" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent" 
+			android:layout_toRightOf="@id/framePhoto" 
+			android:layout_below="@id/textAgeSex" 
+			android:layout_above="@id/textASPCAality" 
+			android:gravity="center" 
+			android:textStyle="bold" 
+			android:textSize="30sp" 
+			android:clickable="true" 
+
+			android:text="@string/unknown" 
+			android:textColor="@color/MYM_gray" 
+		/>
+
+	</RelativeLayout>
+
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:orientation="vertical" 
+	>
+
+		<ScrollView 
+			android:layout_width="fill_parent" 
+			android:layout_height="0dp" 
+			android:layout_weight="1" 
+			android:orientation="vertical" 
+			android:fillViewport="true" 
+		>
+
+			<LinearLayout 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:orientation="vertical" 
+			>
+
+				<TextView 
+					android:id="@+id/textBio" 
+					android:layout_width="fill_parent" 
+					android:layout_height="0dp" 
+					android:layout_weight="1" 
+					android:padding="6dp" 
+					android:textAppearance="?android:attr/textAppearanceMedium" 
+					android:textColor="@color/white" 
+					android:text="@string/unknown" 
+					android:autoLink="all|web|email|phone" 
+				/>
+
+				<TextView 
+					android:id="@+id/textPetID" 
+					android:layout_width="fill_parent" 
+					android:layout_height="wrap_content" 
+					android:gravity="center_horizontal" 
+					android:textColor="@color/white" 
+					android:background="@color/MYM_gray"
+					android:text="@string/pet_id" 
+				/>
+
+			</LinearLayout>
+
+		</ScrollView>
+
+		<View 
+			android:layout_width="fill_parent" 
+			android:layout_height="2dp" 
+			android:background="@color/white" 
+			android:layout_marginTop="6dp" 
+			android:layout_marginBottom="2dp" 
+		/>
+
+		<LinearLayout 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:orientation="horizontal" 
+		>
+
+			<Button 
+				android:id="@+id/buttonPhoto" 
+				android:text="@string/photo" 
+				android:layout_width="0dp" 
+				android:layout_height="wrap_content" 
+				android:layout_weight="1" 
+			/>
+
+			<Button 
+				android:id="@+id/buttonFelinealityCategory" 
+				android:text="@string/category" 
+				android:layout_width="0dp" 
+				android:layout_height="wrap_content" 
+				android:layout_weight="1" 
+			/>
+
+			<Button 
+				android:id="@+id/buttonClose" 
+				android:text="@string/close" 
+				android:layout_width="0dp" 
+				android:layout_height="wrap_content" 
+				android:layout_weight="1" 
+			/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>

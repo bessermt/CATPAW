@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/values/shelter_config.xml -->
+
+<resources>
+	<string name="app_label">CAT</string>
+	<string name="main_label">CAT</string>
+	<string name="package_name">org.catadoptionteam.catdroid</string>
+	<string name="shelter_name">cat adoption team</string>
+	<string name="shelter_address">14175 SW Galbreath Dr. \nSherwood, OR 97140</string>
+	<string name="shelter_geo">geo:45.369672,-122.823184?q=14175+SW+Galbreath+Dr+Sherwood,+OR+97140&amp;z=14</string>
+	<string name="shelter_webmap">http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=14175+SW+Galbreath+Dr,+Sherwood,+OR+97140&amp;aq=0&amp;sll=45.369672,-122.823184&amp;sspn=0.006723,0.01929&amp;ie=UTF8&amp;hq=&amp;hnear=14175+SW+Galbreath+Dr,+Sherwood,+Oregon+97140&amp;z=14</string>
+	<string name="shelter_tel_number">503&#8211;925&#8211;8903</string>
+	<string name="shelter_url">http://catadoptionteam.org/</string>
+	<string name="shelter_server">http://catappdata.appspot.com/</string>
+	<string name="shelter_email">catapp@catadoptionteam.org</string>
+	<string name="shelter_petfinder_id">OR07</string>
+	<string name="shelter_hours_location_url">file:///android_asset/hrs_locs.html</string>
+	<string name="email_subject">Re: CAT Phone App</string>
+	<string name="m9l_help_url">http://catadoptionteam.org/news-events/cat-android-application/game/</string>
+	<string name="youtube_author">CatAdoptionTeam</string>
+</resources>
+

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/layout-land/main.xml -->
+
+<!-- TODO: Improve nextFocus for components. -->
+
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:orientation="vertical" 
+	android:background="@color/white" 
+>
+
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal" 
+		android:baselineAligned="false" 
+	>
+
+<!-- 		<LinearLayout  -->
+<!-- 			android:layout_width="0dp"  -->
+<!-- 			android:layout_height="wrap_content"  -->
+<!-- 			android:layout_weight="1"  -->
+<!-- 			android:orientation="vertical"  -->
+<!-- 		> -->
+
+<!-- 			<ImageView  -->
+<!-- 				android:id="@+id/imageLogo"  -->
+<!-- 				android:layout_width="wrap_content"  -->
+<!-- 				android:layout_height="wrap_content"  -->
+<!-- 				android:src="@drawable/logo"  -->
+<!-- 				android:adjustViewBounds="true"  -->
+<!-- 				android:scaleType="centerInside"  -->
+<!-- 			/> -->
+
+<!-- 		</LinearLayout> -->
+
+		<FrameLayout 
+			android:id="@+id/frameLogo" 
+			android:layout_width="0dp" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+		>
+
+			<ImageView 
+				android:id="@+id/imageLogoCheshire" 
+				android:layout_width="fill_parent" 
+				android:layout_height="fill_parent" 
+				android:layout_gravity="center_horizontal" 
+				android:adjustViewBounds="true" 
+				android:scaleType="centerInside" 
+				android:src="@drawable/logo_cheshire" 
+			/>
+
+			<ImageView 
+				android:id="@+id/imageLogoCat" 
+				android:layout_width="fill_parent" 
+				android:layout_height="fill_parent" 
+				android:layout_gravity="center_horizontal" 
+				android:adjustViewBounds="true" 
+				android:scaleType="centerInside" 
+				android:src="@drawable/logo_cat" 
+			/>
+
+		</FrameLayout>
+
+		<LinearLayout 
+			android:layout_width="0dp" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+			android:orientation="vertical" 
+		>
+
+			<LinearLayout 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:orientation="horizontal" 
+			>
+
+				<ImageButton 
+					android:id="@+id/imageEmail" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+					android:src="@drawable/email"
+					android:adjustViewBounds="true" 
+					android:scaleType="centerInside" 
+					android:contentDescription="@string/email" 
+					style="@style/ImageButton" 
+				/>
+
+				<ImageButton 
+					android:id="@+id/imagePhone" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+					android:src="@drawable/phone"
+					android:adjustViewBounds="true" 
+					android:scaleType="centerInside" 
+					android:contentDescription="@string/phone" 
+					style="@style/ImageButton" 
+				/>
+
+				<ImageButton 
+					android:id="@+id/imageMap" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+					android:src="@drawable/map" 
+					android:adjustViewBounds="true" 
+					android:scaleType="centerInside" 
+					android:contentDescription="@string/map" 
+					style="@style/ImageButton" 
+				/>
+
+				<ImageButton 
+					android:id="@+id/imageWeb" 
+					android:layout_width="0dp" 
+					android:layout_height="wrap_content" 
+					android:layout_weight="1" 
+					android:src="@drawable/web"
+					android:adjustViewBounds="true" 
+					android:scaleType="centerInside" 
+					android:contentDescription="@string/web" 
+					style="@style/ImageButton" 
+				/>
+
+			</LinearLayout>
+
+			<TextView 
+				android:id="@+id/textShelterName" 
+				android:text="@string/shelter_name" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:textColor="@color/black" 
+				android:textAppearance="?android:attr/textAppearanceLarge" 
+				android:typeface="sans" 
+				android:textStyle="bold" 
+				android:gravity="center_horizontal" 
+			/>
+
+			<TextView 
+				android:id="@+id/textShelterAddress" 
+				android:text="@string/shelter_address" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:textColor="@color/black" 
+				android:gravity="center_horizontal" 
+			/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<View 
+		android:layout_width="fill_parent" 
+		android:layout_height="2dp" 
+		android:background="@color/black" 
+	/>
+
+	<ListView 
+		android:id="@android:id/list" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:layout_gravity="bottom" 
+		android:background="@color/white" 
+		android:scrollbars="vertical" 
+		android:scrollingCache="false" 
+		android:fadingEdge="none" 
+	/> 
+
+</LinearLayout>

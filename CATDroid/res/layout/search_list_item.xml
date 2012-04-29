@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/layout/search_list_item.xml -->
+
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" 
+	android:layout_height="?android:attr/listPreferredItemHeight" 
+	android:orientation="horizontal" 
+	android:background="@drawable/listitem_background" 
+	android:padding="6dip" 
+>
+
+	<ImageButton 
+		android:id="@+id/imageThumbnail" 
+		android:layout_width="0dp" 
+		android:layout_height="fill_parent" 
+		android:layout_weight="1" 
+		android:layout_marginLeft="2dp" 
+		android:adjustViewBounds="true" 
+		android:scaleType="centerInside" 
+		android:layout_gravity="center_vertical" 
+		android:contentDescription="@string/thumbnail_desc" 
+		style="@style/ImageButton" 
+		android:focusable="false" 
+	/>
+
+	<TextView 
+		android:id="@+id/textName" 
+		android:layout_width="0dp" 
+		android:layout_height="fill_parent" 
+		android:layout_weight="4" 
+		android:textAppearance="?android:attr/textAppearanceMedium" 
+		android:maxLines="2" 
+		android:gravity="center" 
+		android:focusable="false" 
+	/>
+
+	<CheckBox 
+		android:id="@+id/checkFavorite" 
+		android:layout_width="0dp" 
+		android:layout_height="fill_parent" 
+		android:layout_weight="1" 
+		android:layout_gravity="right" 
+		android:focusable="false" 
+		android:focusableInTouchMode="false" 
+		style="?android:attr/starStyle" 
+	/>
+
+</LinearLayout>

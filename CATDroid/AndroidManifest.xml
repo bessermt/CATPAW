@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- CATDroid/AndroidManifest.xml -->
+
+<!-- TODO: android:installLocation="auto"  -->
+<manifest 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	package="org.catadoptionteam.catdroid" 
+	android:versionCode="4" 
+	android:versionName="1.1.0" 
+>
+
+	<uses-sdk 
+		android:minSdkVersion="7" 
+		android:targetSdkVersion="7" 
+	/>
+
+<!-- TODO: see: http://developer.android.com/resources/samples/SampleSyncAdapter/AndroidManifest.html -->
+
+	<uses-permission 
+		android:name="android.permission.INTERNET" 
+	/>
+
+	<uses-permission 
+		android:name="android.permission.WRITE_EXTERNAL_STORAGE" 
+	/>
+
+	<uses-permission 
+		android:name="android.permission.RECEIVE_BOOT_COMPLETED" 
+	/>
+
+	<uses-permission 
+		android:name="android.permission.CALL_PHONE" 
+	/>
+
+	<uses-permission 
+		android:name="android.permission.VIBRATE" 
+	/>
+
+	<uses-permission 
+		android:name="android.permission.WAKE_LOCK" 
+	/>
+
+	<application 
+		android:name=".CATApp" 
+		android:icon="@drawable/icon" 
+		android:label="@string/app_label" 
+		android:theme="@style/CATTheme" 
+	>
+
+		<activity 
+			android:name=".MainActivity" 
+			android:label="@string/main_label" 
+			android:theme="@style/CATDashboardTheme" 
+		>
+
+			<intent-filter>
+				<action 
+					android:name="android.intent.action.MAIN" 
+				/>
+				<category 
+					android:name="android.intent.category.LAUNCHER" 
+				/>
+			</intent-filter>
+
+		</activity>
+
+		<activity 
+			android:name=".SharedPreferencesActivity" 
+			android:label="@string/preferences" 
+		/>
+<!-- TODO: Consider if android:theme="@style/Theme.NoBackground" is a good idea anywhere.  Warning, this may cause painting problems if background is not opaque or custom.-->
+
+		<activity 
+			android:name=".MYMCategoryActivity" 
+			android:label="@string/felineality_category" 
+		/>
+
+		<activity 
+			android:name=".MYMSurveyActivity" 
+			android:label="@string/mym" 
+		/>
+
+		<activity 
+			android:name=".MYMManualSelectActivity" 
+			android:label="@string/mpm" 
+		/>
+
+		<activity 
+			android:name=".M9LActivity" 
+			android:label="@string/m9l" 
+			android:screenOrientation="portrait" 
+		/>
+
+		<activity 
+			android:name=".BiographyActivity" 
+			android:label="@string/biography" 
+			android:launchMode="singleTop" 
+		/>
+
+		<activity 
+			android:name=".MYMChartActivity" 
+			android:label="@string/felineality_chart" 
+		/>
+
+		<activity 
+			android:name=".YouTubeActivity" 
+			android:label="@string/cattube" 
+		/>
+
+		<activity 
+			android:name=".YouTubePlayerActivity" 
+			android:label="@string/cattube" 
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+			android:screenOrientation="landscape" 
+		/>
+
+		<activity 
+			android:name=".SearchActivity" 
+			android:label="@string/search" 
+			android:launchMode="singleTop" 
+		/>
+
+		<activity 
+			android:name=".SearchAllActivity" 
+			android:label="@string/all" 
+		/>
+
+		<activity 
+			android:name=".SearchFilterActivity" 
+			android:label="@string/filter" 
+		/>
+
+		<activity 
+			android:name=".SearchMatchActivity" 
+			android:label="@string/recent" 
+		/>
+
+		<activity 
+			android:name=".SearchFavoriteActivity" 
+			android:label="@string/favorites" 
+		/>
+
+		<activity 
+			android:name=".PetfinderBioActivity" 
+			android:label="@string/biography" 
+		/>
+
+		<activity 
+			android:name=".WebViewActivity" 
+			android:label="@string/hrs_locs" 
+		/>
+
+		<activity 
+			android:name=".CouponActivity" 
+			android:label="@string/valuable_coupon" 
+			android:theme="@android:style/Theme.Dialog" 
+			android:excludeFromRecents="true" 
+		/>
+
+		<service 
+			android:name=".UpdateService" 
+		/>
+
+		<receiver 
+			android:name=".BootBroadcastReceiver" 
+			android:label="BootBroadcastReceiver" 
+		>
+
+			<intent-filter>
+				<action 
+					android:name="android.intent.action.BOOT_COMPLETED" 
+				/>
+			</intent-filter>
+
+		</receiver>
+
+		<receiver 
+			android:name=".UpdateBroadcastReceiver" 
+			android:label="UpdateBroadcastReceiver" 
+		>
+
+			<intent-filter>
+				<action 
+					android:name="org.catadoptionteam.catdroid.intent.action.UPDATE" 
+				/>
+			</intent-filter>
+
+		</receiver>
+
+		<provider 
+			android:name=".VideoProvider" 
+			android:authorities="org.catadoptionteam.provider.catdroid.video" 
+			android:exported="false" 
+		/>
+
+		<provider 
+			android:name=".PetfinderProvider" 
+			android:authorities="org.catadoptionteam.provider.catdroid.petfinder" 
+			android:exported="false" 
+		/>
+
+	</application>
+
+</manifest>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/values-es/pf_breed_list_text.xml -->
+
+<resources>
+
+	<string-array name="pf_breed_list_text_cat">
+		<item>Abisinio</item>
+		<item>Americano Rizo</item>
+		<item>Americano de Pelo Corto</item>
+		<item>Alambre de Pelo del Americano</item>
+		<item>Applehead Siamés</item>
+		<item>Balinés</item>
+		<item>Bengala</item>
+		<item>Birman</item>
+		<item>Rabicorto</item>
+		<item>Bombay</item>
+		<item>Británico de Pelo Corto</item>
+		<item>Birmano</item>
+		<item>Burmilla</item>
+		<item>Calicó</item>
+		<item>Canadá sin Pelo</item>
+		<item>Chartreux</item>
+		<item>Chausie</item>
+		<item>Chinchilla</item>
+		<item>Cornish Rex</item>
+		<item>Cymric</item>
+		<item>Devon Rex</item>
+		<item>Diluir Calicó</item>
+		<item>Diluir la Concha</item>
+		<item>Del Pelo Largo Doméstica</item>
+		<item>Del Pelo Largo Doméstica - Marrón</item>
+		<item>Del Pelo Largo Doméstica - Ante</item>
+		<item>Del Pelo Largo Doméstica - Ante y Blanco</item>
+		<item>Del Pelo Largo Doméstica - Gris y Blanco</item>
+		<item>Del Pelo Largo Doméstica - Naranja</item>
+		<item>Del Pelo Largo Doméstica - Naranja y Blanco</item>
+		<item>Del Pelo Largo Doméstica - Negro</item>
+		<item>Del Pelo Largo Doméstica - Blanco y Negro</item>
+		<item>Del Pelo Largo Doméstica - Gris</item>
+		<item>Del Pelo Largo Doméstica - Blanco</item>
+		<item>Del Pelo Medio Doméstica</item>
+		<item>Del Pelo Medio Doméstica - Marrón</item>
+		<item>Del Pelo Medio Doméstica - Ante</item>
+		<item>Del Pelo Medio Doméstica - Ante y Blanco</item>
+		<item>Del Pelo Medio Doméstica - Gris y Blanco</item>
+		<item>Del Pelo Medio Doméstica - Naranja y Blanco</item>
+		<item>Del Pelo Medio Doméstica - Negro</item>
+		<item>Del Pelo Medio Doméstica - Blanco y Negro</item>
+		<item>Del Pelo Medio Doméstica - Gris</item>
+		<item>Del Pelo Medio Doméstica - Naranja</item>
+		<item>Del Pelo Medio Doméstica - Blanco</item>
+		<item>Del Pelo Corto Doméstica</item>
+		<item>Del Pelo Corto Doméstica - Marrón</item>
+		<item>Del Pelo Corto Doméstica - Ante</item>
+		<item>Del Pelo Corto Doméstica - Ante y Blanco</item>
+		<item>Del Pelo Corto Doméstica - Gris y Blanco</item>
+		<item>Del Pelo Corto Doméstica - Naranja y Blanco</item>
+		<item>Del Pelo Corto Doméstica - Negro</item>
+		<item>Del Pelo Corto Doméstica - Blanco y Negro</item>
+		<item>Del Pelo Corto Doméstica - Gris</item>
+		<item>Del Pelo Corto Doméstica - Mitón</item>
+		<item>Del Pelo Corto Doméstica - Naranja</item>
+		<item>Del Pelo Corto Doméstica - Blanco</item>
+		<item>Mau Egipcio</item>
+		<item>Exóticos de Pelo Corto</item>
+		<item>Extra-Dedos de los Pies del Gato (Hemingway Polidactilia)</item>
+		<item>La Habana</item>
+		<item>Himalaya</item>
+		<item>Rabicorto Japonés</item>
+		<item>Javanés</item>
+		<item>Korat</item>
+		<item>LaPerm</item>
+		<item>Maine Mapache</item>
+		<item>Manx</item>
+		<item>Munchkin</item>
+		<item>Nebelung</item>
+		<item>Bosque de Noruega</item>
+		<item>Ocicat</item>
+		<item>Del Pelo Largo Oriental</item>
+		<item>Del Pelo Corto Oriental</item>
+		<item>Oriental Atigrado</item>
+		<item>Persa</item>
+		<item>Pixie-Rabi</item>
+		<item>Galopín</item>
+		<item>Monigote</item>
+		<item>Azul Ruso</item>
+		<item>Escocés Pliegue</item>
+		<item>Selkirk Rex</item>
+		<item>Siamés</item>
+		<item>Siberiano</item>
+		<item>Plata</item>
+		<item>Singapura</item>
+		<item>Raqueta de Nieve</item>
+		<item>Somalí</item>
+		<item>Sphynx (gato sin pelo)</item>
+		<item>Atigrado</item>
+		<item>Atigrado - Negro</item>
+		<item>Atigrado - Marrón</item>
+		<item>Atigrado - Ante</item>
+		<item>Atigrado - Gris</item>
+		<item>Atigrado - Naranja</item>
+		<item>Atigrado - Blanco</item>
+		<item>Tigre</item>
+		<item>Tonkinese</item>
+		<item>Torbie</item>
+		<item>Carey</item>
+		<item>Angora Turco</item>
+		<item>Van Turco</item>
+		<item>Esmoquin</item>
+	</string-array>
+
+</resources>

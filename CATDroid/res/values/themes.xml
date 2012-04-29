@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/values/themes.xml -->
+
+<resources>
+
+	<style 
+		name="Theme.NoBackground" 
+		parent="android:Theme" 
+	>
+		<item name="android:windowBackground">@null</item>
+	</style>
+
+	<style 
+		name="DialogTheme" 
+		parent="android:style/Theme.Dialog" 
+	>
+		<item name="android:buttonStyle">@style/Button</item>
+	</style>
+
+	<style 
+		name="CATDashboardTheme" 
+		parent="android:style/Theme.NoTitleBar" 
+	>
+		<item name="android:buttonStyle">@style/Button</item>
+	</style>
+
+	<style 
+		name="CATTheme" 
+		parent="android:style/Theme" 
+	>
+		<item name="android:buttonStyle">@style/Button</item>
+	</style>
+
+</resources>

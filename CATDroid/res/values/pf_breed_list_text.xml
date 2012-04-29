@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/values/pf_breed_list_text.xml -->
+
+<resources>
+
+	<string-array name="pf_breed_list_text_cat">
+		<item>Abyssinian</item>
+		<item>American Curl</item>
+		<item>American Shorthair</item>
+		<item>American Wirehair</item>
+		<item>Applehead Siamese</item>
+		<item>Balinese</item>
+		<item>Bengal</item>
+		<item>Birman</item>
+		<item>Bobtail</item>
+		<item>Bombay</item>
+		<item>British Shorthair</item>
+		<item>Burmese</item>
+		<item>Burmilla</item>
+		<item>Calico</item>
+		<item>Canadian Hairless</item>
+		<item>Chartreux</item>
+		<item>Chausie</item>
+		<item>Chinchilla</item>
+		<item>Cornish Rex</item>
+		<item>Cymric</item>
+		<item>Devon Rex</item>
+		<item>Dilute Calico</item>
+		<item>Dilute Tortoiseshell</item>
+		<item>Domestic Long Hair</item>
+		<item>Domestic Long Hair - Brown</item>
+		<item>Domestic Long Hair - Buff</item>
+		<item>Domestic Long Hair - Buff and White</item>
+		<item>Domestic Long Hair - Gray and White</item>
+		<item>Domestic Long Hair - Orange</item>
+		<item>Domestic Long Hair - Orange and White</item>
+		<item>Domestic Long Hair - Black</item>
+		<item>Domestic Long Hair - Black and White</item>
+		<item>Domestic Long Hair - Gray</item>
+		<item>Domestic Long Hair - White</item>
+		<item>Domestic Medium Hair</item>
+		<item>Domestic Medium Hair - Brown</item>
+		<item>Domestic Medium Hair - Buff</item>
+		<item>Domestic Medium Hair - Buff and White</item>
+		<item>Domestic Medium Hair - Gray and White</item>
+		<item>Domestic Medium Hair - Orange and White</item>
+		<item>Domestic Medium Hair - Black</item>
+		<item>Domestic Medium Hair - Black and White</item>
+		<item>Domestic Medium Hair - Gray</item>
+		<item>Domestic Medium Hair - Orange</item>
+		<item>Domestic Medium Hair - White</item>
+		<item>Domestic Short Hair</item>
+		<item>Domestic Short Hair - Brown</item>
+		<item>Domestic Short Hair - Buff</item>
+		<item>Domestic Short Hair - Buff and White</item>
+		<item>Domestic Short Hair - Gray and White</item>
+		<item>Domestic Short Hair - Orange and White</item>
+		<item>Domestic Short Hair - Black</item>
+		<item>Domestic Short Hair - Black and White</item>
+		<item>Domestic Short Hair - Gray</item>
+		<item>Domestic Short Hair - Mitted</item>
+		<item>Domestic Short Hair - Orange</item>
+		<item>Domestic Short Hair - White</item>
+		<item>Egyptian Mau</item>
+		<item>Exotic Shorthair</item>
+		<item>Extra-Toes Cat (Hemingway Polydactyl)</item>
+		<item>Havana</item>
+		<item>Himalayan</item>
+		<item>Japanese Bobtail</item>
+		<item>Javanese</item>
+		<item>Korat</item>
+		<item>LaPerm</item>
+		<item>Maine Coon</item>
+		<item>Manx</item>
+		<item>Munchkin</item>
+		<item>Nebelung</item>
+		<item>Norwegian Forest Cat</item>
+		<item>Ocicat</item>
+		<item>Oriental Long Hair</item>
+		<item>Oriental Short Hair</item>
+		<item>Oriental Tabby</item>
+		<item>Persian</item>
+		<item>Pixie-Bob</item>
+		<item>Ragamuffin</item>
+		<item>Ragdoll</item>
+		<item>Russian Blue</item>
+		<item>Scottish Fold</item>
+		<item>Selkirk Rex</item>
+		<item>Siamese</item>
+		<item>Siberian</item>
+		<item>Silver</item>
+		<item>Singapura</item>
+		<item>Snowshoe</item>
+		<item>Somali</item>
+		<item>Sphynx (hairless cat)</item>
+		<item>Tabby</item>
+		<item>Tabby - Black</item>
+		<item>Tabby - Brown</item>
+		<item>Tabby - Buff</item>
+		<item>Tabby - Grey</item>
+		<item>Tabby - Orange</item>
+		<item>Tabby - White</item>
+		<item>Tiger</item>
+		<item>Tonkinese</item>
+		<item>Torbie</item>
+		<item>Tortoiseshell</item>
+		<item>Turkish Angora</item>
+		<item>Turkish Van</item>
+		<item>Tuxedo</item>
+	</string-array>
+
+</resources>

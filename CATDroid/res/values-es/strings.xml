@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/values-es/strings.xml -->
+
+<resources>
+	<string name="info_message">Escrito por Cat Adopción equipo de voluntario Mitch Besser. 
+		\n\nCAT es una organización no lucrativa de gato sólo refugio de animales. 
+		\n\nDisponible gratis 100% Open Source para todos los refugios de animales sin fines de lucro.
+	</string>
+	<string name="ok">Aceptar</string>
+	<string name="cancel">Cancelar</string>
+	<string name="close">Cierrar</string>
+	<string name="help">Ayuda</string>
+	<string name="no">No</string>
+	<string name="yes">Sí</string>
+	<string name="and">y</string>
+	<string name="pause">Pausa</string>
+	<string name="reset">Reajustar</string>
+	<string name="refresh">Actualizar</string>
+	<string name="all">Todo</string>
+	<string name="only">Sólo</string>	
+	<string name="none">Ninguno</string>
+	<string name="clear">Borrar</string>
+	<string name="email">Email</string>
+	<string name="phone">Teléfono</string>
+	<string name="map">Mapa</string>
+	<string name="web">Web</string>
+	<string name="cotd">Gato del Día</string>
+	<string name="m9l">Pareja-9-Vidas Juego</string>
+	<string name="mym">Encuesta de Conoce tu Pareja</string>
+	<string name="search">Buscar</string>
+	<string name="cattube">Vídeos Gatos</string>
+	<string name="hrs_locs">Horarios y Sucursales</string>
+	<string name="shelter_is">Refugio Está</string>
+	<string name="open">Abierto</string>
+	<string name="closed">Cerrado</string>
+	<string name="info">Info</string>
+	<string name="description">descripción</string>
+	<string name="filter">Filtro</string>
+	<string name="sort">Tipo</string>
+	<string name="arrival">Arribo</string>
+	<string name="name">Nombre</string>
+	<string name="recent">Reciente</string>
+	<string name="age">Edad</string>
+	<string name="baby">Bebé</string>
+	<string name="young">Jóvenes</string>
+	<string name="kitten">Gatito</string>
+	<string name="teenage">Adolescentes</string>
+	<string name="adult">Adulto</string>
+	<string name="senior">Mayor</string>
+	<string name="sex">Sexo</string>
+	<string name="both">Ambos</string>
+	<string name="male">Masculino</string>
+	<string name="female">Femenino</string>
+	<string name="size">Tamaño</string>
+	<string name="small">P</string>
+	<string name="medium">M</string>
+	<string name="large">G</string>
+	<string name="xlarge">EG</string>
+	<string name="small_text">Pequeño</string>
+	<string name="medium_text">Medio</string>
+	<string name="large_text">Grande</string>
+	<string name="xlarge_text">Extra Grande</string>
+	<string name="breeds_colors">Razas y Colores</string>
+	<string name="i_have">Tengo</string>
+	<string name="cats">Gatos</string>
+	<string name="dislike_cats">No le gustan los Gatos</string>
+	<string name="dogs">Perros</string>
+	<string name="dislike_dogs">No le gustan los Perros</string>
+	<string name="kids">Niños</string>
+	<string name="dislike_kids">Tengo miedo de los niños pequeños</string>
+	<string name="i_welcome_special_needs_pets">Doy La Bienvenida Mascotas con Necesidades Especiales</string>
+	<string name="ask_about_my_special_needs">Pregunte acerca de mis necesidades especiales</string>
+	<string name="declawed">Sin Garras</string>
+	<string name="i_am_declawed">No Tengo Garras</string>
+	<string name="notify">Notificar</string>
+	<string name="favorite">Favorito</string>
+	<string name="favorites">Favoritos</string>
+	<string name="unknown">Desconocido</string>
+	<string name="unknown_sex">Sexo Desconocido</string>
+	<string name="unknown_age">Edad Desconocido</string>
+	<string name="unknown_size">Tamaño Desconocido</string>
+	<string name="unknown_breed">Raza Desconocido</string>
+	<string name="unknown_felineality">Felino-alidad Desconocido</string>
+	<string name="preferences">Preferencias</string>
+	<string name="general_settings">Configuración Generales</string>
+	<string name="account_settings">Configuración Cuenta</string>
+	<string name="account_preference_summary">Frecuencia de actualización, las notificaciones, &#8230;</string>
+	<string name="notifications">Notificaciones</string>
+	<string name="notification_preference_summary">Mostrar Notificaciones</string>
+	<string name="game_hint">Consejos del Juego</string>
+	<string name="m9l_hint_preference_summary">Mostrar Pareja-9-Vidas pistas del juego</string>
+	<string name="update_time">Tiempo de Actualización</string>
+	<string name="update_time_title">Seleccione el Tiempo de Actualización</string>
+	<string name="update_time_preference_summary">Hora del día para actualizar la información.</string>
+	<string name="refresh_message">¿Seguro que desea actualizar todos los datos de la aplicación?</string>
+	<string name="pet_id">ID Mascotas</string>
+	<string name="mpm">Varios Resultados Posibles</string>
+	<string name="category">Categoría</string>
+	<string name="chart">Gráfico</string>
+	<string name="felineality_category">Felino-alidad Categoría</string>
+	<string name="your_felineality">Su Felino-alidad</string>
+	<string name="felineality_chart">Felino-alidad Gráfico</string>
+	<string name="biography">Biografía</string>
+	<string name="valuable_coupon">Cupón Valiosa de CAT</string>
+	<string name="coupon_text">Mostrar este cupón electrónico y recibe $20 de descuento en su próxima adopción gato adulto de CAT. \n\nVálido en una adopción del gato adulto. \n\nNo se puede combinar con otros descuentos. \n\nLímite de uno por familia. \n\nCódigo de Promoción: APAC02</string>
+	<string name="photo">Foto&#8230;</string>
+	<string name="m9l_help_message">Pareja los gatos con sus Felino-alidada<sup><small><small>TM</small></small></sup> icono. 
+		\n\n<big>*</big> <b>Pulse <u>y Mantenga</u></b> las fotos y los iconos en busca de pistas. 
+		\n\nAlinea tu respuesta en la columna central y pulse el botón Pareja. 
+		\n\nPulse el botón de menú del teléfono para ver esta ayuda una vez más. 
+		\n\nConsejo: <i>No juzgues a un gato por su color.</i>
+	</string>
+	<string name="more_help">Más Ayuda&#8230;</string>
+	<string name="game_paused">Juego en Pausa</string>
+	<string name="match">Pareja</string>
+	<string name="matches">Parejas</string>
+	<string name="new_game">Nuevo Juego</string>
+	<string name="game_over">Juego Terminado</string>
+	<string name="best_time"><b>¡Mejor Hora!</b></string>
+	<string name="least_guesses"><b>¡Menos Adivinanzas!</b></string>
+	<string name="high_score">Puntuación Alta</string>
+	<string name="high_score_best_time">Mejor Hora:</string>
+	<string name="high_score_least_guesses">Menos Adivinanzas:</string>
+	<string name="time">Tiempo</string>
+	<string name="match_per_guess">Pareja/Adivinanza</string>
+	<string name="no_match">No Parejas</string>
+	<string name="one_match">Uno Pareja</string>
+	<string name="all_match">¡Todo Pareja!</string>
+	<string name="initializing">Inicializar</string>
+	<string name="wait_msg">Por favor espere&#8230; \nEste proceso puede tardar hasta 10 minutos.</string>
+	<string name="no_data">No hay datos disponibles en la actualidad&#8230; \nPor favor, inténtelo de nuevo más tarde.</string>
+	<string name="no_pets_found">No se mascotas encontrados. \nPor favor, inténtelo de nuevo más tarde.</string>
+	<string name="no_pets_match">No se mascotas encontrados. \nPor favor, ajustar el filtro o inténtelo de nuevo más tarde.</string>
+	<string name="no_pets_favorite">No hay mascotas favorito seleccionado.</string>
+	<string name="view_matches">Ver Parejas&#8230;</string>
+	<string name="busy_downloading">Esta occupado&#8230; \nPor favor, inténtelo de nuevo más tarde.</string>
+	<string name="suggest_survey">Por favor, tome la <b>Encuesta de Conoce tu Pareja</b></string>
+	<string name="sdcard_unavailable">Tarjeta SD disponible actualmente. Por favor, insertar la tarjeta SD y vuelva a intentarlo.</string>
+	<string name="feature_unavailable">Característica no está disponible. Por favor, inténtelo de nuevo o contacte el refugio para ayuda.</string>
+	<string name="no_translation">En este momento la traduccion de Ingles a Español no esta disponible. Por favor, utilice un programa de traduccion o llame al refugio para information adicional.</string>
+	<string name="mym_perfect">¡Conoce tu Pareja Perfecta!</string>
+	<string name="pet_search">Mascotas Buscar</string>
+	<string name="my_matches">Mi Parejas&#8230;</string>
+	<string name="new_pet_match_found">Nueva Mascota se Encontraron Coincidencias.</string>
+	<string name="thumbnail_desc">Miniatura de la foto</string>
+</resources>

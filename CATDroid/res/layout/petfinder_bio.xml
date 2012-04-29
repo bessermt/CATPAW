@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/layout/pet_bio.xml -->
+
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:orientation="vertical" 
+>
+
+	<RelativeLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="120dp" 
+		android:background="@color/white" 
+	>
+
+		<FrameLayout 
+			android:id="@+id/framePhoto" 
+			android:layout_width="120dp" 
+			android:layout_height="fill_parent" 
+			android:layout_alignParentLeft="true" 
+			android:layout_alignParentTop="true" 
+			android:layout_alignParentBottom="true" 
+			android:layout_gravity="center" 
+		>
+
+			<ImageButton 
+				android:id="@+id/imagePhoto" 
+				android:layout_width="fill_parent" 
+				android:layout_height="fill_parent" 
+				android:padding="1dp" 
+				android:scaleType="centerInside" 
+				android:adjustViewBounds="true" 
+				android:background="@color/navy" 
+				android:src="@drawable/missing_photo" 
+				android:contentDescription="@string/photo" 
+			/>
+
+			<ImageView 
+				android:id="@+id/imageViewPlus" 
+				android:src="@drawable/ic_plus" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:scaleType="centerInside" 
+				android:adjustViewBounds="true" 
+
+				android:visibility="invisible" 
+			/>
+
+		</FrameLayout>
+
+		<TextView 
+			android:id="@+id/textAgeSex" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:layout_alignParentTop="true" 
+			android:layout_toRightOf="@id/framePhoto" 
+			android:gravity="center_horizontal" 
+			android:textColor="@color/white" 
+			android:background="@color/navy" 
+
+			android:text="@string/unknown" 
+		/>
+
+		<TextView 
+			android:id="@+id/textSize" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:layout_alignParentBottom="true" 
+			android:layout_toRightOf="@id/framePhoto" 
+			android:gravity="center_horizontal" 
+			android:textColor="@color/white" 
+			android:background="@color/navy" 
+
+			android:text="@string/unknown_size" 
+		/>
+
+		<TextView 
+			android:id="@+id/textName" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent" 
+			android:layout_toRightOf="@id/framePhoto" 
+			android:layout_below="@id/textAgeSex" 
+			android:layout_above="@id/textSize" 
+			android:gravity="center" 
+			android:textStyle="bold" 
+			android:textSize="30sp" 
+			android:clickable="true" 
+			android:textColor="@color/navy" 
+
+			android:text="@string/unknown" 
+		/>
+
+	</RelativeLayout>
+
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="0dp" 
+		android:layout_weight="1" 
+		android:orientation="vertical" 
+	>
+
+		<View 
+			android:layout_width="fill_parent" 
+			android:layout_height="1dp" 
+			android:background="@color/white" 
+		/>
+
+		<ScrollView 
+			android:layout_width="fill_parent" 
+			android:layout_height="0dp" 
+			android:layout_weight="1" 
+			android:orientation="vertical" 
+			android:fillViewport="true" 
+		>
+
+			<LinearLayout 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:orientation="vertical" 
+			>
+
+				<View 
+					android:layout_width="fill_parent" 
+					android:layout_height="1dp" 
+					android:background="@color/white" 
+				/>
+
+				<LinearLayout 
+					android:layout_width="fill_parent" 
+					android:layout_height="wrap_content" 
+					android:orientation="horizontal" 
+					android:background="@drawable/pf_option_bg" 
+				>
+
+					<ImageButton 
+						android:id="@+id/buttonSpecialNeeds" 
+						android:src="@drawable/heart" 
+						android:layout_width="0dp" 
+						android:layout_height="wrap_content" 
+						android:layout_weight="1" 
+						android:scaleType="centerInside" 
+						android:contentDescription="@string/ask_about_my_special_needs" 
+						style="@style/ImageButton" 
+					/>
+
+					<FrameLayout 
+						android:id="@+id/frameDeclawed" 
+						android:layout_width="0dp" 
+						android:layout_height="wrap_content" 
+						android:layout_weight="1" 
+					>
+
+						<ImageView 
+							android:src="@drawable/no" 
+							android:layout_width="fill_parent" 
+							android:layout_height="fill_parent" 
+						/>
+
+						<ImageButton 
+							android:id="@+id/buttonDeclawed" 
+							android:src="@drawable/claw" 
+							android:layout_width="fill_parent" 
+							android:layout_height="fill_parent" 
+							android:scaleType="centerInside" 
+							android:contentDescription="@string/i_am_declawed" 
+							style="@style/ImageButton" 
+						/>
+
+					</FrameLayout>
+
+					<FrameLayout 
+						android:id="@+id/frameNoCats" 
+						android:layout_width="0dp" 
+						android:layout_height="wrap_content" 
+						android:layout_weight="1" 
+					>
+
+						<ImageView 
+							android:src="@drawable/no" 
+							android:layout_width="fill_parent" 
+							android:layout_height="fill_parent" 
+						/>
+
+						<ImageButton 
+							android:id="@+id/buttonNoCats" 
+							android:src="@drawable/cat" 
+							android:layout_width="fill_parent" 
+							android:layout_height="fill_parent" 
+							android:scaleType="centerInside" 
+							android:contentDescription="@string/dislike_cats" 
+							style="@style/ImageButton" 
+						/>
+
+					</FrameLayout>
+
+					<FrameLayout 
+						android:id="@+id/frameNoDogs" 
+						android:layout_width="0dp" 
+						android:layout_height="wrap_content" 
+						android:layout_weight="1" 
+					>
+
+						<ImageView 
+							android:src="@drawable/no" 
+							android:layout_width="fill_parent" 
+							android:layout_height="fill_parent" 
+						/>
+
+						<ImageButton 
+							android:id="@+id/buttonNoDogs" 
+							android:src="@drawable/dog" 
+							android:layout_width="fill_parent" 
+							android:layout_height="fill_parent" 
+							android:scaleType="centerInside" 
+							android:contentDescription="@string/dislike_dogs" 
+							style="@style/ImageButton" 
+						/>
+
+					</FrameLayout>
+
+					<FrameLayout 
+						android:id="@+id/frameNoKids" 
+						android:layout_width="0dp" 
+						android:layout_height="wrap_content" 
+						android:layout_weight="1" 
+					>
+
+						<ImageView 
+							android:src="@drawable/no" 
+							android:layout_width="fill_parent" 
+							android:layout_height="fill_parent" 
+						/>
+
+						<ImageButton 
+							android:id="@+id/buttonNoKids" 
+							android:src="@drawable/kid" 
+							android:layout_width="fill_parent" 
+							android:layout_height="fill_parent" 
+							android:scaleType="centerInside" 
+							android:contentDescription="@string/dislike_kids" 
+							style="@style/ImageButton" 
+						/>
+
+					</FrameLayout>
+
+					<CheckBox 
+						android:id="@+id/checkFavorite" 
+						android:layout_width="0dp" 
+						android:layout_height="fill_parent" 
+						android:layout_weight="1" 
+						android:gravity="center" 
+						style="?android:attr/starStyle" 
+					/>
+
+				</LinearLayout>
+
+				<TextView 
+					android:id="@+id/textBreed" 
+					android:layout_width="fill_parent" 
+					android:layout_height="wrap_content" 
+					android:gravity="center_horizontal" 
+					android:textColor="@color/white" 
+					android:background="@drawable/breed_bg" 
+					android:layout_margin="4dp" 
+
+					android:text="@string/unknown_breed" 
+				/>
+
+				<TextView 
+					android:id="@+id/textBio" 
+					android:layout_width="fill_parent" 
+					android:layout_height="0dp" 
+					android:layout_weight="1" 
+					android:padding="6dp" 
+					android:textAppearance="?android:attr/textAppearanceMedium" 
+					android:textColor="@color/white" 
+					android:autoLink="all|web|email|phone" 
+
+					android:text="@string/unknown" 
+				/>
+
+				<TextView 
+					android:id="@+id/textPetID" 
+					android:layout_width="fill_parent" 
+					android:layout_height="wrap_content" 
+					android:gravity="center_horizontal" 
+					android:textColor="@color/white" 
+					android:background="@color/navy" 
+
+					android:text="@string/pet_id"
+				/>
+
+			</LinearLayout>
+
+		</ScrollView>
+
+		<View 
+			android:layout_width="fill_parent" 
+			android:layout_height="2dp" 
+			android:background="@color/white" 
+			android:layout_marginTop="6dp" 
+			android:layout_marginBottom="2dp" 
+		/>
+
+		<LinearLayout 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:orientation="horizontal" 
+		>
+
+			<Button 
+				android:id="@+id/buttonPhoto" 
+				android:text="@string/photo" 
+				android:layout_width="0dp" 
+				android:layout_height="wrap_content" 
+				android:layout_weight="1" 
+			/>
+
+			<Button 
+				android:id="@+id/buttonClose" 
+				android:text="@string/close" 
+				android:layout_width="0dp" 
+				android:layout_height="wrap_content" 
+				android:layout_weight="1" 
+			/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>

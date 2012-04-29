@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/layout-land/mym_chart.xml -->
+
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	xmlns:catadoptionteam="http://schemas.android.com/apk/res/org.catadoptionteam.catdroid" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+>
+
+	<TextView 
+		android:id="@+id/textFelinealityTitle" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:gravity="center" 
+		android:textStyle="bold" 
+		android:textAppearance="?android:attr/textAppearanceLarge" 
+		android:layout_alignParentTop="true" 
+		android:textSize="30sp" 
+		android:background="@drawable/mym_chart_bg" 
+
+		android:text="@string/felineality_chart" 
+		android:textColor="@color/black" 
+	/>
+
+	<LinearLayout 
+		android:id="@+id/layoutButton" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal" 
+		android:layout_alignParentBottom="true" 
+	>
+
+		<Button 
+			android:id="@+id/buttonOK" 
+			android:text="@string/ok" 
+			android:layout_width="0dp" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+		/>
+
+		<Button 
+			android:id="@+id/buttonCancel" 
+			android:text="@string/cancel" 
+			android:layout_width="0dp" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+		/>
+
+	</LinearLayout>
+
+	<LinearLayout 
+		android:id="@+id/sociability" 
+		android:layout_width="wrap_content" 
+		android:layout_height="fill_parent" 
+		android:orientation="vertical" 
+		android:layout_above="@id/layoutButton" 
+		android:layout_below="@id/textFelinealityTitle"
+		android:layout_alignParentLeft="true" 
+		android:layout_marginTop="@dimen/mym_chart_scale_thickness" 
+		android:layout_marginBottom="@dimen/mym_chart_seekbar_thickness" 
+	>
+
+		<TextView 
+			android:id="@+id/textIndependent" 
+			android:text="@string/independent" 
+			android:layout_width="fill_parent" 
+			android:layout_height="0dp" 
+			android:layout_weight="1" 
+			android:gravity="center_vertical|right" 
+			android:maxLines="1" 
+			android:textAppearance="?android:attr/textAppearanceSmall" 
+		/>
+
+		<TextView 
+			android:id="@+id/textSocial" 
+			android:text="@string/social" 
+			android:layout_width="fill_parent" 
+			android:layout_height="0dp" 
+			android:layout_weight="1" 
+			android:gravity="center_vertical|right" 
+			android:maxLines="1" 
+			android:textAppearance="?android:attr/textAppearanceSmall" 
+		/>
+
+		<TextView 
+			android:id="@+id/textGregarious" 
+			android:text="@string/gregarious" 
+			android:layout_width="fill_parent" 
+			android:layout_height="0dp" 
+			android:layout_weight="1" 
+			android:gravity="center_vertical|right" 
+			android:maxLines="1" 
+			android:textAppearance="?android:attr/textAppearanceSmall" 
+		/>
+
+	</LinearLayout>
+
+	<LinearLayout 
+		android:id="@+id/valiance" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal" 
+		android:layout_below="@id/textFelinealityTitle" 
+		android:layout_toRightOf="@id/sociability" 
+		android:layout_marginRight="@dimen/mym_chart_seekbar_thickness"
+	>
+
+		<TextView 
+			android:id="@+id/textDiscreet" 
+			android:text="@string/discreet" 
+			android:layout_width="0dp" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+			android:gravity="center" 
+			android:maxLines="1" 
+			android:textAppearance="?android:attr/textAppearanceSmall" 
+		/>
+
+		<TextView 
+			android:id="@+id/textSensible" 
+			android:text="@string/sensible" 
+			android:layout_width="0dp" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+			android:gravity="center" 
+			android:maxLines="1" 
+			android:textAppearance="?android:attr/textAppearanceSmall" 
+		/>
+
+		<TextView 
+			android:id="@+id/textValiant" 
+			android:text="@string/valiant" 
+			android:layout_width="0dp" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" 
+			android:gravity="center" 
+			android:maxLines="1" 
+			android:textAppearance="?android:attr/textAppearanceSmall" 
+		/>
+
+	</LinearLayout>
+
+	<SeekBar 
+		android:id="@+id/seekValiance" 
+		android:layout_width="fill_parent" 
+		android:layout_height="@dimen/mym_chart_seekbar_thickness" 
+		android:layout_above="@id/layoutButton" 
+		android:layout_alignLeft="@+id/valiance" 
+		android:layout_alignRight="@+id/valiance" 
+		android:padding="1dp" 
+		android:thumb="@null" 
+		android:secondaryProgress="29" 
+		android:max="29" 
+	/>
+
+	<org.catadoptionteam.catdroid.VerticalSeekBar 
+		android:id="@+id/seekSociability" 
+		android:layout_width="@dimen/mym_chart_seekbar_thickness" 
+		android:layout_height="fill_parent" 
+		android:layout_alignParentRight="true" 
+		android:layout_alignTop="@+id/sociability" 
+		android:layout_alignBottom="@+id/sociability" 
+		android:padding="1dp" 
+		android:thumb="@null" 
+		android:secondaryProgress="29" 
+		android:max="29" 
+	/>
+
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:orientation="horizontal" 
+		android:layout_below="@id/valiance" 
+		android:layout_above="@id/seekValiance" 
+		android:layout_toRightOf="@id/sociability" 
+		android:layout_toLeftOf="@id/seekSociability" 
+	>
+
+		<LinearLayout 
+			android:layout_width="0dp" 
+			android:layout_height="fill_parent" 
+			android:layout_weight="1" 
+			android:orientation="vertical" 
+			android:gravity="center" 
+		>
+
+			<ImageButton 
+				android:id="@+id/buttonv1s1" 
+				android:layout_width="wrap_content" 
+				android:layout_height="0dp" 
+				android:layout_weight="1" 
+				android:src="@drawable/v1_s1_pi" 
+				android:adjustViewBounds="true" 
+				android:scaleType="centerInside" 
+				android:contentDescription="@string/v1_s1_pi_title" 
+				android:padding="@dimen/mym_chart_cell_padding" 
+				style="@style/ImageButton" 
+			/>
+
+			<ImageButton 
+				android:id="@+id/buttonv1s2" 
+				android:layout_width="wrap_content" 
+				android:layout_height="0dp" 
+				android:layout_weight="1" 
+				android:src="@drawable/v1_s2_admirer" 
+				android:adjustViewBounds="true" 
+				android:scaleType="centerInside" 
+				android:contentDescription="@string/v1_s2_admirer_title" 
+				android:padding="@dimen/mym_chart_cell_padding" 
+				style="@style/ImageButton" 
+			/>
+
+			<ImageButton 
+				android:id="@+id/buttonv1s3" 
+				android:layout_width="wrap_content" 
+				android:layout_height="0dp" 
+				android:layout_weight="1" 
+				android:src="@drawable/v1_s3_lovebug" 
+				android:adjustViewBounds="true" 
+				android:scaleType="centerInside" 
+				android:contentDescription="@string/v1_s3_lovebug_title" 
+				android:padding="@dimen/mym_chart_cell_padding" 
+				style="@style/ImageButton" 
+			/>
+	
+		</LinearLayout>
+
+		<LinearLayout 
+			android:layout_width="0dp" 
+			android:layout_height="fill_parent" 
+			android:layout_weight="1" 
+			android:orientation="vertical" 
+			android:gravity="center" 
+		>
+
+			<ImageButton 
+				android:id="@+id/buttonv2s1" 
+				android:layout_width="wrap_content" 
+				android:layout_height="0dp" 
+				android:layout_weight="1" 
+				android:src="@drawable/v2_s1_executive" 
+				android:adjustViewBounds="true" 
+				android:scaleType="centerInside" 
+				android:contentDescription="@string/v2_s1_executive_title" 
+				android:padding="@dimen/mym_chart_cell_padding" 
+				style="@style/ImageButton" 
+			/>
+
+			<ImageButton 
+				android:id="@+id/buttonv2s2" 
+				android:layout_width="wrap_content" 
+				android:layout_height="0dp" 
+				android:layout_weight="1" 
+				android:src="@drawable/v2_s2_sidekick" 
+				android:adjustViewBounds="true" 
+				android:scaleType="centerInside" 
+				android:contentDescription="@string/v2_s2_sidekick_title" 
+				android:padding="@dimen/mym_chart_cell_padding" 
+				style="@style/ImageButton" 
+			/>
+
+			<ImageButton 
+				android:id="@+id/buttonv2s3" 
+				android:layout_width="wrap_content" 
+				android:layout_height="0dp" 
+				android:layout_weight="1" 
+				android:src="@drawable/v2_s3_assistant" 
+				android:adjustViewBounds="true" 
+				android:scaleType="centerInside" 
+				android:contentDescription="@string/v2_s3_assistant_title" 
+				android:padding="@dimen/mym_chart_cell_padding" 
+				style="@style/ImageButton" 
+			/>
+
+		</LinearLayout>
+
+		<LinearLayout 
+			android:layout_width="0dp" 
+			android:layout_height="fill_parent" 
+			android:layout_weight="1" 
+			android:orientation="vertical" 
+			android:gravity="center" 
+		>
+
+			<ImageButton 
+				android:id="@+id/buttonv3s1" 
+				android:layout_width="wrap_content" 
+				android:layout_height="0dp" 
+				android:layout_weight="1" 
+				android:src="@drawable/v3_s1_mvp" 
+				android:adjustViewBounds="true" 
+				android:scaleType="centerInside" 
+				android:contentDescription="@string/v3_s1_mvp_title" 
+				android:padding="@dimen/mym_chart_cell_padding" 
+				style="@style/ImageButton" 
+			/>
+
+			<ImageButton 
+				android:id="@+id/buttonv3s2" 
+				android:layout_width="wrap_content" 
+				android:layout_height="0dp" 
+				android:layout_weight="1" 
+				android:src="@drawable/v3_s2_party" 
+				android:adjustViewBounds="true" 
+				android:scaleType="centerInside" 
+				android:contentDescription="@string/v3_s2_party_title" 
+				android:padding="@dimen/mym_chart_cell_padding" 
+				style="@style/ImageButton" 
+			/>
+
+			<ImageButton 
+				android:id="@+id/buttonv3s3" 
+				android:layout_width="wrap_content" 
+				android:layout_height="0dp" 
+				android:layout_weight="1" 
+				android:src="@drawable/v3_s3_leader" 
+				android:adjustViewBounds="true" 
+				android:scaleType="centerInside" 
+				android:contentDescription="@string/v3_s3_leader_title" 
+				android:padding="@dimen/mym_chart_cell_padding" 
+				style="@style/ImageButton" 
+			/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</RelativeLayout>

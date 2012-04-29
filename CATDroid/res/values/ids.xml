@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/values/ids.xml -->
+
+<resources>
+
+	<!-- YouTubeActivity ID's -->
+	<item type="id" name="youtube_video_id" />
+	<item type="id" name="youtube_uri" />
+	<item type="id" name="youtube_uploaded" />
+	<item type="id" name="youtube_description" />
+
+	<!-- SearchList ID's -->
+	<item type="id" name="pet_id" />
+	<item type="id" name="pet_created" />
+	<item type="id" name="pet_modified" />
+
+</resources>

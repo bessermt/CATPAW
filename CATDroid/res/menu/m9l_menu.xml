@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<!-- res/menu/m9l_menu.xml --> 
+
+<menu 
+	xmlns:android="http://schemas.android.com/apk/res/android"> 
+	<item 
+		android:id="@+id/close" 
+		android:title="@string/close" 
+		android:icon="@drawable/ic_cancel" 
+	/> 
+	<item 
+		android:id="@+id/help" 
+		android:title="@string/help" 
+		android:icon="@drawable/ic_menu_help" 
+	/> 
+	<item 
+		android:id="@+id/new_game" 
+		android:title="@string/new_game" 
+		android:icon="@drawable/ic_menu_new_game" 
+	/> 
+	<item 
+		android:id="@+id/high_score" 
+		android:title="@string/high_score" 
+		android:icon="@drawable/ic_menu_high_score" 
+	/> 
+	<item 
+		android:id="@+id/pause" 
+		android:title="@string/pause" 
+		android:icon="@drawable/ic_menu_pause" 
+	/> 
+</menu> 

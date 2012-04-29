@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/layout/main.xml -->
+
+<!-- TODO: Improve nextFocus for components. -->
+
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:orientation="vertical" 
+	android:background="@color/white" 
+>
+
+	<FrameLayout 
+		android:id="@+id/frameLogo" 
+		android:layout_width="fill_parent" 
+		android:layout_height="100dp" 
+	>
+
+		<ImageView 
+			android:id="@+id/imageLogoCheshire" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent" 
+			android:layout_gravity="center_horizontal" 
+			android:adjustViewBounds="true" 
+			android:scaleType="centerInside" 
+			android:src="@drawable/logo_cheshire" 
+		/>
+
+		<ImageView 
+			android:id="@+id/imageLogoCat" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent" 
+			android:layout_gravity="center_horizontal" 
+			android:adjustViewBounds="true" 
+			android:scaleType="centerInside" 
+			android:src="@drawable/logo_cat" 
+		/>
+
+	</FrameLayout>
+
+	<TextView 
+		android:id="@+id/textShelterName" 
+		android:text="@string/shelter_name" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:textColor="@color/black" 
+		android:textAppearance="?android:attr/textAppearanceLarge" 
+		android:typeface="sans" 
+		android:textStyle="bold" 
+		android:gravity="center_horizontal" 
+	/>
+
+	<TextView 
+		android:id="@+id/textShelterAddress" 
+		android:text="@string/shelter_address" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:textColor="@color/black" 
+		android:gravity="center_horizontal" 
+		android:paddingBottom="2dp"
+	/>
+
+	<View 
+		android:layout_width="fill_parent" 
+		android:layout_height="2dp" 
+		android:background="@color/black" 
+	/>
+
+	<RelativeLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+	>
+
+		<LinearLayout 
+			android:id="@+id/bottomBar" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:orientation="horizontal" 
+			android:layout_alignParentBottom="true" 
+		>
+
+			<ImageButton 
+				android:id="@+id/imageEmail" 
+				android:layout_width="0dp" 
+				android:layout_height="wrap_content" 
+				android:layout_weight="1" 
+				android:src="@drawable/email" 
+				android:adjustViewBounds="true" 
+				android:scaleType="centerInside" 
+				android:contentDescription="@string/email" 
+				style="@style/ImageButton" 
+			/>
+
+			<ImageButton 
+				android:id="@+id/imagePhone" 
+				android:layout_width="0dp" 
+				android:layout_height="wrap_content" 
+				android:layout_weight="1" 
+				android:src="@drawable/phone" 
+				android:adjustViewBounds="true" 
+				android:scaleType="centerInside" 
+				android:contentDescription="@string/email" 
+				style="@style/ImageButton" 
+			/>
+
+			<ImageButton 
+				android:id="@+id/imageMap" 
+				android:layout_width="0dp" 
+				android:layout_height="wrap_content" 
+				android:layout_weight="1" 
+				android:src="@drawable/map" 
+				android:adjustViewBounds="true" 
+				android:scaleType="centerInside" 
+				android:contentDescription="@string/map" 
+				style="@style/ImageButton" 
+			/>
+
+			<ImageButton 
+				android:id="@+id/imageWeb" 
+				android:layout_width="0dp" 
+				android:layout_height="wrap_content" 
+				android:layout_weight="1" 
+				android:src="@drawable/web"
+				android:adjustViewBounds="true" 
+				android:scaleType="centerInside" 
+				android:contentDescription="@string/web" 
+				style="@style/ImageButton" 
+			/>
+
+		</LinearLayout>
+
+		<View 
+			android:id="@+id/bottomDiv" 
+			android:layout_width="fill_parent" 
+			android:layout_height="2dp" 
+			android:background="@color/black" 
+			android:layout_above="@id/bottomBar" 
+		/>
+
+		<ListView 
+			android:id="@android:id/list" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent" 
+			android:scrollingCache="false" 
+			android:background="@color/white" 
+			android:layout_above="@id/bottomDiv" 
+			android:scrollbars="vertical" 
+			android:fadingEdge="none" 
+		/>
+
+	</RelativeLayout>
+
+</LinearLayout>

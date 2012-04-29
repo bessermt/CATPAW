@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/layout/mym_manual_select.xml -->
+
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:orientation="vertical" 
+>
+
+	<TextView 
+		android:id="@+id/textQuestion" 
+		android:text="@string/tie_question" 
+		style="@style/MYMQuestion" 
+	/>
+
+	<View 
+		style="@style/MYMDivider" 
+	/>
+
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:orientation="horizontal" 
+	>
+
+		<LinearLayout 
+			android:layout_width="wrap_content" 
+			android:layout_height="fill_parent" 
+			android:orientation="vertical" 
+		>
+
+			<ScrollView 
+				android:layout_width="wrap_content" 
+				android:layout_height="0dp" 
+				android:layout_weight="1" 
+				android:orientation="vertical" 
+			>
+
+				<RadioGroup 
+					android:id="@+id/radioGroupFelineality" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" 
+					android:orientation="vertical" 
+					android:paddingRight="6sp" 
+					style="@style/MYMRadioGroup" 
+				>
+
+				</RadioGroup>
+
+			</ScrollView>
+
+			<Button 
+				android:id="@+id/buttonOK" 
+				android:text="@string/ok" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:layout_margin="2dp" 
+			/>
+
+		</LinearLayout>
+
+		<View 
+			android:layout_width="2dp" 
+			android:layout_height="fill_parent" 
+			android:background="@color/white" 
+			android:layout_marginRight="6dp" 
+		/>
+
+		<LinearLayout 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent" 
+			android:orientation="vertical" 
+		>
+
+			<TextView 
+				android:id="@+id/textTitle" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:gravity="center_horizontal" 
+				android:textStyle="bold" 
+				android:textColor="@color/white"
+				android:paddingBottom="2dp" 
+			/>
+
+			<ScrollView 
+				android:layout_width="fill_parent" 
+				android:layout_height="0dp" 
+				android:layout_weight="1" 
+				android:orientation="vertical" 
+			>
+
+				<TextView 
+					android:id="@+id/textDesc" 
+					android:layout_width="fill_parent" 
+					android:layout_height="wrap_content" 
+					android:textColor="@color/white"
+					android:text="@string/select_radio" 
+				/>
+
+			</ScrollView>
+
+			<View 
+				android:id="@+id/viewDivider" 
+				style="@style/MYMDivider" 
+			/>
+
+			<TextView 
+				android:id="@+id/textScale" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:gravity="center_horizontal" 
+				android:textColor="@color/white"
+				android:textStyle="italic" 
+			/>
+
+			<TextView 
+				android:id="@+id/textIndex" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:gravity="center_horizontal" 
+				android:textColor="@color/white"
+				android:textStyle="italic" 
+				android:padding="1dp" 
+			/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>

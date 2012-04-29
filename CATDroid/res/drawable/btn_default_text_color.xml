@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/drawable/btn_text_color.xml -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item 
+		android:state_window_focused="false" android:state_enabled="true" 
+		android:color="@color/black" 
+	/>
+	<item 
+		android:state_window_focused="false" android:state_enabled="false" 
+		android:color="@color/white" 
+	/>
+	<item 
+		android:state_pressed="true" 
+		android:color="@color/black" 
+	/>
+	<item 
+		android:state_focused="true" android:state_enabled="true" 
+		android:color="@color/black" 
+	/>
+	<item 
+		android:state_enabled="true" 
+		android:color="@color/black" 
+	/>
+	<item android:state_focused="true" 
+		android:color="@color/white" 
+	/>
+	<item 
+		android:color="@color/black" 
+	/>
+</selector>

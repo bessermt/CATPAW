@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/layout/main_list_item.xml -->
+
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" 
+	android:layout_height="?android:attr/listPreferredItemHeight" 
+	android:orientation="horizontal" 
+>
+
+	<ImageButton 
+		android:id="@+id/imageIcon" 
+		android:layout_width="0dp" 
+		android:layout_height="wrap_content" 
+		android:layout_weight="1" 
+		android:adjustViewBounds="true" 
+		android:scaleType="centerInside" 
+		android:padding="2dp" 
+		android:layout_gravity="center" 
+		style="@style/ImageButton" 
+	/>
+
+	<TextView 
+		android:id="@+id/textVoid" 
+		android:layout_width="0dp" 
+		android:layout_height="0dp" 
+		android:visibility="gone" 
+	/>
+
+	<Button 
+		android:id="@+id/buttonTitle" 
+		android:layout_width="0dp" 
+		android:layout_height="wrap_content" 
+		android:layout_weight="4" 
+		android:layout_gravity="center" 
+		android:layout_marginRight="2dp" 
+	/>
+
+</LinearLayout>

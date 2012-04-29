@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/values/dimens.xml -->
+
+<resources>
+
+	<dimen name="mym_chart_scale_thickness">25dp</dimen>
+	<dimen name="mym_chart_seekbar_thickness">10dp</dimen>
+	<dimen name="mym_chart_cell_padding">1px</dimen>
+
+<!-- 	<dimen name="default_corner_radius">8dp</dimen> -->
+
+<!-- 	<dimen name="btn_default_padding">10dp</dimen> -->
+<!-- 	<dimen name="btn_default_border_width">1dp</dimen> -->
+<!-- 	<dimen name="btn_default_corner_radius">@dimen/default_corner_radius</dimen> -->
+</resources>

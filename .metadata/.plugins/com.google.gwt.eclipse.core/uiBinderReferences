@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiBinderReferences>
+<referenceManager>
+<references>
+<reference sourceProject="CATPhoneSrv">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/catadoptionteam/catphonesrv/client/COTDList.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/catadoptionteam/catphonesrv/client/COTDList.ui.xml"/>
+</reference>
+<reference sourceProject="CATPhoneSrv">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.catadoptionteam.catphonesrv.client.COTDList$COTDListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/catadoptionteam/catphonesrv/client/COTDList.ui.xml"/>
+</reference>
+<reference sourceProject="CATPhoneSrv">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.catadoptionteam.catphonesrv.client.CatEditor$CatRecordUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/catadoptionteam/catphonesrv/client/CatEditor.ui.xml"/>
+</reference>
+<reference sourceProject="CATPhoneSrv">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/catadoptionteam/catphonesrv/client/M9LList.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/catadoptionteam/catphonesrv/client/M9LList.ui.xml"/>
+</reference>
+<reference sourceProject="CATPhoneSrv">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/catadoptionteam/catphonesrv/client/COTDList.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="CATPhoneSrv">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.catadoptionteam.catphonesrv.client.M9LList$M9LListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/catadoptionteam/catphonesrv/client/M9LList.ui.xml"/>
+</reference>
+<reference sourceProject="CATPhoneSrv">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/catadoptionteam/catphonesrv/client/CatEditor.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.datepicker.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="CATPhoneSrv">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/catadoptionteam/catphonesrv/client/CatEditor.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="CATPhoneSrv">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/catadoptionteam/catphonesrv/client/CatEditor.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/catadoptionteam/catphonesrv/client/CatEditor.ui.xml"/>
+</reference>
+<reference sourceProject="CATPhoneSrv">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/catadoptionteam/catphonesrv/client/M9LList.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+</references>
+</referenceManager>
+<uiBinderSubtypeToOwner/>
+<uiBinderSubtypeToUiXml/>
+<uiXmlReferencedFields>
+<uiField location="/CATPhoneSrv/src/org/catadoptionteam/catphonesrv/client/COTDList.ui.xml" name="style"/>
+<uiField location="/CATPhoneSrv/src/org/catadoptionteam/catphonesrv/client/COTDList.ui.xml" name="table"/>
+<uiField location="/CATPhoneSrv/src/org/catadoptionteam/catphonesrv/client/COTDList.ui.xml" name="add"/>
+<uiField location="/CATPhoneSrv/src/org/catadoptionteam/catphonesrv/client/CatEditor.ui.xml" name="cancelButton"/>
+<uiField location="/CATPhoneSrv/src/org/catadoptionteam/catphonesrv/client/CatEditor.ui.xml" name="extraIDTextBox"/>
+<uiField location="/CATPhoneSrv/src/org/catadoptionteam/catphonesrv/client/CatEditor.ui.xml" name="sexListBox"/>
+<uiField location="/CATPhoneSrv/src/org/catadoptionteam/catphonesrv/client/CatEditor.ui.xml" name="extraURLTextBox"/>
+<uiField location="/CATPhoneSrv/src/org/catadoptionteam/catphonesrv/client/CatEditor.ui.xml" name="DOBDateBox"/>
+<uiField location="/CATPhoneSrv/src/org/catadoptionteam/catphonesrv/client/CatEditor.ui.xml" name="smPhotoURLTextBox"/>
+<uiField location="/CATPhoneSrv/src/org/catadoptionteam/catphonesrv/client/CatEditor.ui.xml" name="style"/>
+<uiField location="/CATPhoneSrv/src/org/catadoptionteam/catphonesrv/client/CatEditor.ui.xml" name="adoptedCheckBox"/>
+<uiField location="/CATPhoneSrv/src/org/catadoptionteam/catphonesrv/client/CatEditor.ui.xml" name="felinealityListBox"/>
+<uiField location="/CATPhoneSrv/src/org/catadoptionteam/catphonesrv/client/CatEditor.ui.xml" name="biographyTextArea"/>
+<uiField location="/CATPhoneSrv/src/org/catadoptionteam/catphonesrv/client/CatEditor.ui.xml" name="petIDTextBox"/>
+<uiField location="/CATPhoneSrv/src/org/catadoptionteam/catphonesrv/client/CatEditor.ui.xml" name="nameTextBox"/>
+<uiField location="/CATPhoneSrv/src/org/catadoptionteam/catphonesrv/client/CatEditor.ui.xml" name="okButton"/>
+<uiField location="/CATPhoneSrv/src/org/catadoptionteam/catphonesrv/client/CatEditor.ui.xml" name="lgPhotoURLTextBox"/>
+<uiField location="/CATPhoneSrv/src/org/catadoptionteam/catphonesrv/client/M9LList.ui.xml" name="style"/>
+<uiField location="/CATPhoneSrv/src/org/catadoptionteam/catphonesrv/client/M9LList.ui.xml" name="table"/>
+</uiXmlReferencedFields>
+</uiBinderReferences>

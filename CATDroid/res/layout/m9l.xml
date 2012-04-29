@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/layout/m9l.xml -->
+
+<FrameLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+>
+
+	<View 
+		android:layout_width="10px" 
+		android:layout_height="fill_parent" 
+		android:background="@color/white" 
+		android:layout_gravity="center_horizontal" 
+	/> 
+
+	<View 
+		android:id="@+id/matchline" 
+		android:layout_width="8px" 
+		android:layout_height="fill_parent" 
+		android:background="@color/black" 
+		android:layout_gravity="center_horizontal" 
+	/> 
+
+	<LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:orientation="vertical" 
+	>
+
+		<Gallery 
+			android:id="@+id/galleryTopPhoto" 
+			android:layout_width="fill_parent" 
+			android:layout_height="0dp" 
+			android:layout_weight="1" 
+			android:unselectedAlpha="0.4" 
+			android:layout_marginTop="-8dp"
+		/>
+
+		<Gallery 
+			android:id="@+id/galleryIcon" 
+			android:layout_width="fill_parent" 
+			android:layout_height="0dp" 
+			android:layout_weight="1" 
+			android:unselectedAlpha="0.5" 
+		/>
+
+		<Gallery 
+			android:id="@+id/galleryBottomPhoto" 
+			android:layout_width="fill_parent" 
+			android:layout_height="0dp" 
+			android:layout_weight="1" 
+			android:unselectedAlpha="0.4" 
+		/>
+
+		<LinearLayout 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:orientation="horizontal" 
+		>
+
+			<LinearLayout 
+				android:layout_width="0dp" 
+				android:layout_weight="1" 
+				android:layout_height="fill_parent" 
+				android:orientation="vertical" 
+				android:gravity="bottom" 
+			>
+
+				<TextView 
+					android:text="@string/time" 
+					android:layout_width="fill_parent" 
+					android:layout_height="wrap_content" 
+					android:gravity="center_horizontal" 
+				/>
+
+				<TextView 
+					android:id="@+id/textGameClock" 
+					android:layout_width="fill_parent" 
+					android:layout_height="wrap_content" 
+					android:textAppearance="?android:attr/textAppearanceMedium" 
+					android:gravity="center_horizontal" 
+				/>
+
+			</LinearLayout>
+
+			<FrameLayout 
+				android:layout_width="0dp" 
+				android:layout_weight="1" 
+				android:layout_height="fill_parent" 
+			>
+
+				<Button 
+					android:id="@+id/buttonMatch" 
+					android:text="@string/match" 
+					android:layout_width="fill_parent" 
+					android:layout_height="wrap_content" 
+					android:textAppearance="?android:attr/textAppearanceMedium" 
+					android:layout_gravity="bottom" 
+					android:padding="10dp" 
+				/>
+
+				<Button 
+					android:id="@+id/buttonNewGame" 
+					android:text="@string/new_game" 
+					android:layout_width="fill_parent" 
+					android:layout_height="wrap_content" 
+					android:textAppearance="?android:attr/textAppearanceMedium" 
+					android:layout_gravity="bottom" 
+					android:padding="10dp" 
+				/>
+
+			</FrameLayout>
+
+			<LinearLayout 
+				android:layout_width="0dp" 
+				android:layout_weight="1" 
+				android:layout_height="fill_parent" 
+				android:orientation="vertical" 
+				android:gravity="bottom" 
+			>
+
+				<TextView 
+					android:text="@string/match_per_guess" 
+					android:layout_width="fill_parent" 
+					android:layout_height="wrap_content" 
+					android:gravity="center_horizontal" 
+				/>
+
+				<TextView 
+					android:id="@+id/textMatchGuess" 
+					android:layout_width="fill_parent" 
+					android:layout_height="wrap_content" 
+					android:textAppearance="?android:attr/textAppearanceMedium" 
+					android:gravity="center_horizontal" 
+				/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/layout/mym_survey.xml -->
+
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:orientation="vertical" 
+>
+
+	<ScrollView 
+		android:id="@+id/survey" 
+		android:layout_width="fill_parent" 
+		android:layout_height="0dp" 
+		android:layout_weight="1" 
+		android:orientation="vertical" 
+	>
+
+		<LinearLayout 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:orientation="vertical" 
+		>
+
+			<ImageView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:src="@drawable/mym_logo" 
+				android:scaleType="fitCenter" 
+				android:background="@color/white" 
+				android:padding="4dp" 
+			/>
+
+		<!-- === -->
+
+			<TextView 
+				android:id="@+id/q1" 
+				android:text="@string/q1" 
+				style="@style/MYMQuestion" 
+			/>
+
+			<RadioGroup 
+				android:id="@+id/q1a" 
+				style="@style/MYMRadioGroup" 
+			>
+
+				<RadioButton 
+					android:id="@+id/q1a1" 
+					android:text="@string/q1a1" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q1a2" 
+					android:text="@string/q1a2" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q1a3" 
+					android:text="@string/q1a3" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+			</RadioGroup>
+
+		<View 
+			android:id="@+id/q1div" 
+			style="@style/MYMDivider" 
+		/>
+
+			<TextView 
+				android:id="@+id/q2" 
+				android:text="@string/q2" 
+				style="@style/MYMQuestion" 
+			/>
+
+			<RadioGroup 
+				android:id="@+id/q2a" 
+				style="@style/MYMRadioGroup" 
+			>
+
+				<RadioButton 
+					android:id="@+id/q2a1" 
+					android:text="@string/q2a1" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q2a2" 
+					android:text="@string/q2a2" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q2a3" 
+					android:text="@string/q2a3" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+			</RadioGroup>
+
+		<View 
+			android:id="@+id/q2div" 
+			style="@style/MYMDivider" 
+		/>
+
+			<TextView 
+				android:id="@+id/q3" 
+				android:text="@string/q3" 
+				style="@style/MYMQuestion" 
+			/>
+
+			<RadioGroup 
+				android:id="@+id/q3a" 
+				style="@style/MYMRadioGroup" 
+			>
+
+				<RadioButton 
+					android:id="@+id/q3a1" 
+					android:text="@string/q3a1" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q3a2" 
+					android:text="@string/q3a2" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q3a3" 
+					android:text="@string/q3a3" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+			</RadioGroup>
+
+		<View 
+			android:id="@+id/q3div" 
+			style="@style/MYMDivider" 
+		/>
+
+			<TextView 
+				android:id="@+id/q4" 
+				android:text="@string/q4" 
+				style="@style/MYMQuestion" 
+			/>
+
+			<RadioGroup 
+				android:id="@+id/q4a" 
+				style="@style/MYMRadioGroup" 
+			>
+
+				<RadioButton 
+					android:id="@+id/q4a1" 
+					android:text="@string/q4a1" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q4a2" 
+					android:text="@string/q4a2" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q4a3" 
+					android:text="@string/q4a3" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+			</RadioGroup>
+
+		<View 
+			android:id="@+id/q4div" 
+			style="@style/MYMDivider" 
+		/>
+
+			<TextView 
+				android:id="@+id/q5" 
+				android:text="@string/q5" 
+				style="@style/MYMQuestion" 
+			/>
+
+			<RadioGroup 
+				android:id="@+id/q5a" 
+				style="@style/MYMRadioGroup" 
+			>
+
+				<RadioButton 
+					android:id="@+id/q5a1" 
+					android:text="@string/q5a1" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q5a2" 
+					android:text="@string/q5a2" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q5a3" 
+					android:text="@string/q5a3" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+			</RadioGroup>
+
+		<View 
+			android:id="@+id/q5div" 
+			style="@style/MYMDivider" 
+		/>
+
+			<TextView 
+				android:id="@+id/q6" 
+				android:text="@string/q6" 
+				style="@style/MYMQuestion" 
+			/>
+
+			<RadioGroup 
+				android:id="@+id/q6a" 
+				style="@style/MYMRadioGroup" 
+			>
+
+				<RadioButton 
+					android:id="@+id/q6a1" 
+					android:text="@string/q6a1" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q6a2" 
+					android:text="@string/q6a2" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q6a3" 
+					android:text="@string/q6a3" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q6a4" 
+					android:text="@string/q6a4" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+			</RadioGroup>
+
+		<View 
+			android:id="@+id/q6div" 
+			style="@style/MYMDivider" 
+		/>
+
+			<TextView 
+				android:id="@+id/q7" 
+				android:text="@string/q7" 
+				style="@style/MYMQuestion" 
+			/>
+
+			<RadioGroup 
+				android:id="@+id/q7a" 
+				style="@style/MYMRadioGroup" 
+			>
+
+				<RadioButton 
+					android:id="@+id/q7a1" 
+					android:text="@string/q7a1" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q7a2" 
+					android:text="@string/q7a2" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q7a3" 
+					android:text="@string/q7a3" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+			</RadioGroup>
+
+		<View 
+			android:id="@+id/q7div" 
+			style="@style/MYMDivider" 
+		/>
+
+			<TextView 
+				android:id="@+id/q8" 
+				android:text="@string/q8" 
+				style="@style/MYMQuestion" 
+			/>
+
+			<RadioGroup 
+				android:id="@+id/q8a" 
+				style="@style/MYMRadioGroup" 
+			>
+
+				<RadioButton 
+					android:id="@+id/q8a1" 
+					android:text="@string/q8a1" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q8a2" 
+					android:text="@string/q8a2" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q8a3" 
+					android:text="@string/q8a3" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+			</RadioGroup>
+
+		<View 
+			android:id="@+id/q8div" 
+			style="@style/MYMDivider" 
+		/>
+
+			<TextView 
+				android:id="@+id/q9" 
+				android:text="@string/q9" 
+				style="@style/MYMQuestion" 
+			/>
+
+			<RadioGroup 
+				android:id="@+id/q9a" 
+				style="@style/MYMRadioGroup" 
+			>
+
+				<RadioButton 
+					android:id="@+id/q9a1" 
+					android:text="@string/q9a1" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q9a2" 
+					android:text="@string/q9a2" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q9a3" 
+					android:text="@string/q9a3" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+			</RadioGroup>
+
+		<View 
+			android:id="@+id/q9div" 
+			style="@style/MYMDivider" 
+		/>
+
+			<TextView 
+				android:text="@string/q10" 
+				style="@style/MYMQuestion" 
+			/>
+
+			<LinearLayout 
+				android:id="@+id/q10a" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:orientation="horizontal" 
+			>
+
+				<CheckBox 
+					android:id="@+id/q10a1" 
+					android:text="@string/q10a1" 
+					style="@style/MYMCheckAnswer" 
+				/>
+
+				<CheckBox 
+					android:id="@+id/q10a2" 
+					android:text="@string/q10a2" 
+					style="@style/MYMCheckAnswer" 
+				/>
+
+				<CheckBox 
+					android:id="@+id/q10a3" 
+					android:text="@string/q10a3" 
+					style="@style/MYMCheckAnswer" 
+				/>
+
+			</LinearLayout>
+
+			<LinearLayout 
+				android:id="@+id/q10aText" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:orientation="horizontal" 
+			>
+
+				<TextView 
+					android:text="@string/q10a4" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" 
+					android:gravity="center_vertical" 
+				/>
+
+				<EditText 
+					android:id="@+id/q10a4Edit" 
+					android:layout_width="fill_parent" 
+					android:layout_height="wrap_content" 
+					android:singleLine="true" 
+					android:background="@android:drawable/editbox_background" 
+					android:layout_margin="2dp" 
+				/>
+
+			</LinearLayout>
+
+		<View 
+			style="@style/MYMDivider" 
+		/>
+
+			<TextView 
+				android:id="@+id/q11" 
+				android:text="@string/q11" 
+				style="@style/MYMQuestion" 
+			/>
+
+			<RadioGroup 
+				android:id="@+id/q11a" 
+				style="@style/MYMRadioGroup" 
+			>
+
+				<RadioButton 
+					android:id="@+id/q11a1" 
+					android:text="@string/q11a1" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q11a2" 
+					android:text="@string/q11a2" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q11a3" 
+					android:text="@string/q11a3" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+			</RadioGroup>
+
+		<View 
+			android:id="@+id/q11div" 
+			style="@style/MYMDivider" 
+		/>
+
+			<TextView 
+				android:id="@+id/q12" 
+				android:text="@string/q12" 
+				style="@style/MYMQuestion" 
+			/>
+
+			<RadioGroup 
+				android:id="@+id/q12a" 
+				style="@style/MYMRadioGroup" 
+			>
+
+				<RadioButton 
+					android:id="@+id/q12a1" 
+					android:text="@string/q12a1" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q12a3" 
+					android:text="@string/q12a3" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q12a4" 
+					android:text="@string/q12a4" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+			</RadioGroup>
+
+		<View 
+			android:id="@+id/q12div" 
+			style="@style/MYMDivider" 
+		/>
+
+			<TextView 
+				android:id="@+id/q13" 
+				android:text="@string/q13" 
+				style="@style/MYMQuestion" 
+			/>
+
+			<RadioGroup 
+				android:id="@+id/q13a" 
+				style="@style/MYMRadioGroup" 
+			>
+
+				<RadioButton 
+					android:id="@+id/q13a1" 
+					android:text="@string/q13a1" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q13a3" 
+					android:text="@string/q13a3" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q13a4" 
+					android:text="@string/q13a4" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+			</RadioGroup>
+
+		<View 
+			android:id="@+id/q13div" 
+			style="@style/MYMDivider" 
+		/>
+
+			<TextView 
+				android:id="@+id/q14" 
+				android:text="@string/q14" 
+				style="@style/MYMQuestion" 
+			/>
+
+			<RadioGroup 
+				android:id="@+id/q14a" 
+				style="@style/MYMRadioGroup" 
+			>
+
+				<RadioButton 
+					android:id="@+id/q14a1" 
+					android:text="@string/q14a1" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q14a2" 
+					android:text="@string/q14a2" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q14a3" 
+					android:text="@string/q14a3" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+			</RadioGroup>
+
+		<View 
+			android:id="@+id/q14div" 
+			style="@style/MYMDivider" 
+		/>
+
+			<TextView 
+				android:id="@+id/q15" 
+				android:text="@string/q15" 
+				style="@style/MYMQuestion" 
+			/>
+
+			<RadioGroup 
+				android:id="@+id/q15a" 
+				style="@style/MYMRadioGroup" 
+			>
+
+				<RadioButton 
+					android:id="@+id/q15a1" 
+					android:text="@string/q15a1" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q15a2" 
+					android:text="@string/q15a2" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+				<RadioButton 
+					android:id="@+id/q15a3" 
+					android:text="@string/q15a3" 
+					style="@style/MYMRadioAnswer" 
+				/>
+
+			</RadioGroup>
+
+		<View 
+			android:id="@+id/q15div" 
+			style="@style/MYMDivider" 
+		/>
+
+			<TextView 
+				android:text="@string/q16" 
+				style="@style/MYMQuestion" 
+			/>
+
+			<EditText 
+				android:id="@+id/q16aEdit" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:background="@android:drawable/editbox_background" 
+			/>
+
+		<!-- === -->
+
+			<View 
+				android:layout_width="fill_parent" 
+				android:layout_height="2dp" 
+				android:background="@color/white" 
+				android:layout_marginTop="4dp" 
+			/>
+
+			<TextView 
+				android:id="@+id/textASPCAAck" 
+				android:text="@string/aspca_ack" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:gravity="center_horizontal" 
+			/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+	<View 
+		android:layout_width="fill_parent" 
+		android:layout_height="2dp" 
+		android:background="@color/white" 
+		android:layout_marginTop="6dp" 
+		android:layout_marginBottom="2dp" 
+	/>
+
+	<Button 
+		android:id="@+id/score" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text="@string/score" 
+		android:layout_margin="4dp" 
+	/>
+
+</LinearLayout>

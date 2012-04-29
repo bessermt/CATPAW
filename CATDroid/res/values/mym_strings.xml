@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/values/mym_strings.xml -->
+
+<resources>
+
+	<string name="meet_your_match">Meet Your Match<sup>®</sup></string>
+	<string name="aspca_ack"><a href="http://www.aspca.org/adoption/meet-your-match/">Meet Your Match</a><sup>®</sup> is a program of <a href="http://www.aspca.org/">ASPCA</a><sup>®</sup></string>
+	<string name="score">Score</string>
+	<string name="survey">Survey</string>
+
+	<!--  Scales Valiance/Social -->
+
+	<string name="discreet">Discreet</string>
+	<string name="sensible">Sensible</string>
+	<string name="valiant">Valiant</string>
+
+	<string name="independent">Independent</string>
+	<string name="social">Social</string>
+	<string name="gregarious">Gregarious</string>
+
+	<!--  Feline-alities -->
+
+	<string name="v1_s1_pi_title">Private Investigator</string>
+	<string name="v1_s2_admirer_title">Secret Admirer</string>
+	<string name="v1_s3_lovebug_title">Love Bug</string>
+	<string name="v2_s1_executive_title">The Executive</string>
+	<string name="v2_s2_sidekick_title">Sidekick</string>
+	<string name="v2_s3_assistant_title">Personal Assistant</string>
+	<string name="v3_s1_mvp_title">MVP</string>
+	<string name="v3_s2_party_title">Party Animal</string>
+	<string name="v3_s3_leader_title">Leader of the Band</string>
+
+	<string name="v1_s1_pi_desc">I\'m working undercover to keep an eye on you and your household. You may not even know you\'re under surveillance. I can vanish into thin air if anyone or anything interferes with my investigation. If you need a cat who knows how to stay out of trouble and will always keep your secrets, I just might take your case.</string>
+	<string name="v1_s2_admirer_desc">When it comes to relationships, I\'m very level-headed. I don\'t leap in paws first, if you know what I mean. But give me a little time, and then I\'ll shower you with purrs, head-butts, and plenty of lap time. In the meantime, you may not see a lot of me, but I\'ll be thinking a lot of you!</string>
+	<string name="v1_s3_lovebug_desc">Do you seek affection? I do! If you also like petting, purrs, and paws kneading your lap, I think we might have a LOT in common. I\'m looking for \"someone who enjoys quiet times and togetherness.\" Could that someone be you?</string>
+	<string name="v2_s1_executive_desc">I have to say, I\'m a busy cat. First, I\'ve got to check out what\'s happening out the window. Next, I\'ll see if any closets or cupboards need looking into. And then there are my naps--can\'t be late for those. I can fit a little socializing into my schedule. Shall we plan on breakfast and dinner? I hope you like kibbles.</string>
+	<string name="v2_s2_sidekick_desc">Like all sidekicks, I\'m just plain good company. I like attention, and I also like my solitude. I don\'t go looking for trouble, but I\'m no scaredy-cat, either. If you are looking for a steady companion to travel with you on the road of life, look no further.</string>
+	<string name="v2_s3_assistant_desc">You\'re working on the computer? Let me press the keys. Reading the paper? I\'ll hold the pages down for you. Watching TV? I\'ll just plop in your lap so you can pet me. I love an orderly household, don\'t you? I\'ll help you with all your chores, and I\'ll help you relax when we\'re done. You\'ll wonder how you ever managed without me.</string>
+	<string name="v3_s1_mvp_desc">I\'m a savvy cat who knows the score. I\'m pretty unflappable, too. I don\'t mind entertaining myself, but a human companion at the other end of the couch and a nice scratch behind the ears always make my day. If you\'re looking for a resourceful addition to your team, think about signing this Most Valuable Pussycat.</string>
+	<string name="v3_s2_party_desc">I\'m a cat on a mission: PARTY! I love to play and explore and test my limits. I\'d love to play with you, but I can make a toy out of anything: pencils, post-it notes, potatoes. If you\'re looking for some laughs and someone to liven up the party, think about inviting me.</string>
+	<string name="v3_s3_leader_desc">I\'m a cat who does everything in a big way. I not only like to be in the middle of things - I like to lead the parade. I\'m an adventurous cat, but I\'ll still make plenty of time to show you my affectionate side. I\'m the demonstrative type, you might say. Want a cat who\'s brimming with confidence? That\'s me.</string>
+
+	<string name="undecided_title">Survey</string>
+	<string name="undecided_desc">Take the Meet Your Match<sup><small>®</small></sup> Survey and discover your 
+	    \n<a href="http://catadoptionteam.org/feline-alities-for-cat-cats"><b>Feline-ality</b></a><sup><small><small>TM</small></small></sup>
+		\n\nCompleting the survey will help you find a cat that best matches your lifestyle. 
+	</string>
+
+	<!-- Common Answers: -->
+
+	<string name="somewhat">Somewhat</string>
+	<string name="little_time">Little of the time</string>
+	<string name="some_time">Some of the time</string>
+	<string name="often">Often</string>
+	<string name="most_time">Most of the time</string>
+	<string name="all_time">All of the time</string>
+
+
+	<!-- Q & A: -->
+
+	<string name="q1">I would consider my household to be</string>
+	<string name="q1a1">A library</string>
+	<string name="q1a2">Middle of the road</string>
+	<string name="q1a3">A carnival</string>
+
+	<string name="q2">I am comfortable with a cat that likes to play \"chase my ankles\" and similar games.</string>
+	<string name="q2a1">@string/no</string>
+	<string name="q2a2">@string/somewhat</string>
+	<string name="q2a3">@string/yes</string>
+
+	<string name="q3">I want my cat to interact with guests that come to my house.</string>
+	<string name="q3a1">@string/little_time</string>
+	<string name="q3a2">@string/some_time</string>
+	<string name="q3a3">@string/all_time</string>
+
+	<string name="q4">How do you feel about a boisterous cat that gets into everything?</string>
+	<string name="q4a1">Love them but rather not live with them</string>
+	<string name="q4a2">Depends on the situation</string>
+	<string name="q4a3">Fine by me</string>
+
+	<string name="q5">My cat needs to be able to adjust to new situations quickly.</string>
+	<string name="q5a1">Not important</string>
+	<string name="q5a2">@string/somewhat</string>
+	<string name="q5a3">@string/yes</string>
+
+	<string name="q6">I want my cat to love being with children in my home.</string>
+	<string name="q6a1">It\'s not important whether my cat loves being with children</string>
+	<string name="q6a2">@string/some_time</string>
+	<string name="q6a3">@string/most_time</string>
+	<string name="q6a4">Children do not often come to my house</string>
+
+	<!-- ================================================================= -->
+
+	<string name="q7">My cat needs to be able to be alone.</string>
+	<string name="q7a1">More than 9 hours per day</string>
+	<string name="q7a2">4 to 8 hours per day</string>
+	<string name="q7a3">Less than 4 hours per day</string>
+
+	<string name="q8">When I am at home, I want my cat to be by my side or in my lap.</string>
+	<string name="q8a1">@string/little_time</string>
+	<string name="q8a2">@string/some_time</string>
+	<string name="q8a3">@string/all_time</string>
+
+	<string name="q9">I want my cat to enjoy being held.</string>
+	<string name="q9a1">@string/little_time</string>
+	<string name="q9a2">@string/some_time</string>
+	<string name="q9a3">@string/most_time</string>
+
+	<!-- ================================================================= -->
+
+	<string name="q10">I need my cat to get along with (check all that apply):</string>
+	<string name="q10a1">Dogs</string>
+	<string name="q10a2">Cats</string>
+	<string name="q10a3">Birds</string>
+	<string name="q10a4">Other:</string>
+
+	<string name="q11">My cat will be</string>
+	<string name="q11a1">Inside</string>
+	<string name="q11a2">Inside and Outside</string>
+	<string name="q11a3">Outside</string>
+
+	<string name="q12">I have lived with cats before.</string>
+	<string name="q12a1">@string/no</string>
+	<string name="q12a3">@string/yes</string>
+	<string name="q12a3when">How long ago?</string>
+	<string name="q12a4">Currently</string>
+
+	<string name="q13">I prefer my cat to be talkative.</string>
+	<string name="q13a1">@string/no</string>
+	<string name="q13a3">@string/yes</string>
+	<string name="q13a4">It\'s not important if my cat is talkative</string>
+
+	<string name="q14">I want my cat to play with toys.</string>
+	<string name="q14a1">@string/little_time</string>
+	<string name="q14a2">@string/some_time</string>
+	<string name="q14a3">@string/often</string>
+
+	<string name="q15">I want my cat to be active.</string>
+	<string name="q15a1">Not very active at all</string>
+	<string name="q15a2">@string/somewhat</string>
+	<string name="q15a3">Yes, very</string>
+
+	<string name="q16">Lastly, it is most important to me that my cat:</string>
+
+	<string name="tie_question">Which Feline-ality<sup><small><small>TM</small></small></sup> best describes your ideal cat?</string>
+	<string name="select_radio">Your answers indicate you would be compatible with more than one Feline-ality<sup><small><small>TM</small></small></sup>. 
+		\n\nSelect from your options on the left to read a detailed description. 
+		\n\nWhen done, press <b>OK</b> to confirm your choice.
+	</string>
+
+</resources>

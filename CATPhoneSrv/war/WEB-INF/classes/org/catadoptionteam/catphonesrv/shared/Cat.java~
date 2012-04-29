@@ -1,0 +1,307 @@
+/**
+ * 
+ */
+package org.simplycats.catphonesrv.shared;
+
+import java.io.Serializable;
+import java.util.Date;
+
+import javax.jdo.annotations.IdGeneratorStrategy;
+import javax.jdo.annotations.Persistent;
+import javax.jdo.annotations.PrimaryKey;
+
+/**
+ * @author bessermt
+ *
+ */
+// TODO: @PersistenceCapable(identityType = IdentityType.APPLICATION, detachable="true")
+public final class Cat implements Serializable
+{
+	public static final int CATEGORY_INVALID = -1;
+	public static final int CATEGORY_ANIMAL_OF_THE_DAY = 0;
+	public static final int CATEGORY_M9L = 1;
+
+	public enum Sex // See ISO 5218:2004
+	{
+		UNKNOWN (0), 
+		MALE    (1), 
+		FEMALE  (2);
+
+		private int value_;
+
+		Sex(final int value)
+		{
+			value_ = value;
+		}
+
+		public int valueOf()
+		{
+			return value_;
+		}
+
+		public static Sex create(final int ordinal)
+		{
+			final Sex result = Sex.values()[ordinal];
+			return result;
+		}
+	}
+
+	public enum Felineality // http://www.aspcapro.org/about-feline-ality.php
+	{
+		PRIVATE_INVESTIGATOR (0), 
+		SECRET_ADMIRER       (1), 
+		LOVE_BUG             (2), 
+		THE_EXECUTIVE        (3), 
+		SIDEKICK             (4), 
+		PERSONAL_ASSISTANT   (5), 
+		MVP                  (6), 
+		PARTY_ANIMAL         (7), 
+		LEADER_OF_THE_BAND   (8);
+
+		private int value_;
+
+		Felineality(final int value)
+		{
+			value_ = value;
+		}
+
+		public int valueOf()
+		{
+			return value_;
+		}
+
+		private static boolean isValid(final int ordinal)
+		{
+			final boolean result = (ordinal >= 0 && ordinal < values().length);
+			return result;
+		}
+
+		public static boolean isValid(final Felineality felineality)
+		{
+			boolean result = false;
+			if (felineality != null)
+			{
+				final int ordinal = felineality.ordinal();
+				result = isValid(ordinal);
+			}
+			return result;
+		}
+
+		public static Felineality create(final int ordinal)
+		{
+			Felineality result = null;
+			if (isValid(ordinal))
+			{
+				result = values()[ordinal];
+			}
+			return result;
+		}
+
+		// TODO: @Override toString() to create a more user friendly string.
+
+		private static String[] toStringArray()
+		{
+			final Felineality[] values = values();
+			final int size = values.length;
+			final String[] result = new String[size];
+			int index = 0;
+			for (Felineality value: values)
+			{
+				result[index++] = value.toString();
+			}
+			return result;
+		}
+	}
+
+	//  TODO: delete? // private static final String EMPTY_STRING = "";
+
+	@PrimaryKey
+	@Persistent(valueStrategy = IdGeneratorStrategy.IDENTITY)
+	private Long id;
+
+	private String petID; // Unique shelter ID
+
+	private String name; // Commonly used name
+
+	private int category; // COTD or M9L
+
+	private String expDate; // Date for Cat of the Day in ISO 8601 format.  TTL for M9L.
+
+	private boolean adopted;
+
+	private String dob; // Date Of Birth in ISO 8601 format.
+
+	private Sex sex;
+
+	private Felineality aspcaAlity;
+
+	private String biography; // biographical description
+
+	private String lgPhotoURL; // Large size photo URL
+
+	private String smPhotoURL; // Small size photo URL
+
+	private String extraID; // Extra ID, useful for external data (ex. Petfinder)
+
+	private String extraURL; // Additional info webpage
+
+	public Cat()
+	{
+		this.id = null;
+		this.petID = null;
+		this.name = null;
+		this.category = CATEGORY_INVALID;
+		this.expDate = null;
+		this.adopted = false;
+		this.dob = null;
+		this.sex = Sex.UNKNOWN;
+		this.aspcaAlity = null;
+		this.biography = null;
+		this.lgPhotoURL = null;
+		this.smPhotoURL = null;
+		this.extraID = null;
+		this.extraURL = null;
+	}
+
+	public Cat
+	(
+		final Long id, 
+		final String petID, 
+		final String name, 
+		final int category, 
+		final String expDate, 
+		final boolean adopted, 
+		final String dob, 
+		final Sex sex, 
+		final Felineality felineality, 
+		final String biography, 
+		final String lgPhotoURL, 
+		final String smPhotoURL, 
+		final String extraID, 
+		final String extraURL
+	)
+	{
+		this.id = id;
+		this.petID = petID;
+		this.name = name;
+		this.category = category;
+		this.expDate = expDate;
+		this.adopted = adopted;
+		this.dob = dob;
+		this.sex = sex;
+		this.aspcaAlity = felineality;
+		this.biography = biography;
+		this.lgPhotoURL = lgPhotoURL;
+		this.smPhotoURL = smPhotoURL;
+		this.extraID = extraID;
+		this.extraURL = extraURL;
+	}
+
+	public Long getID()
+	{
+		return id;
+	}
+
+	public String getPetID()
+	{
+		return this.petID;
+	}
+
+	public String getName()
+	{
+		return this.name;
+	}
+
+	public int getCategory()
+	{
+		return this.category;
+	}
+
+	public String getExpDate()
+	{
+		String result = this.expDate;
+		if (!FieldVerifier.isDate(result))
+		{
+			final Date now = new Date();
+			result = Util.toString(now);	
+		}
+		return result;
+	}
+
+	public boolean isAdopted()
+	{
+		return adopted;
+	}
+
+	public String getSpecies()
+	{
+		final String result = getClass().getName();
+		return result;
+	};
+
+	public String getDOB()
+	{
+		return this.dob;
+	}
+
+	public Sex getSex()
+	{
+		return this.sex;
+	}
+
+	public Felineality getFelineality()
+	{
+		return this.aspcaAlity;
+	}
+
+	public String getBiography()
+	{
+		return this.biography;
+	}
+
+	public String getLgPhotoURL()
+	{
+		return this.lgPhotoURL;
+	}
+
+	public String getSmPhotoURL()
+	{
+		return this.smPhotoURL;
+	}
+
+	public String getExtraID()
+	{
+		return this.extraID;
+	}
+
+	public String getExtraURL()
+	{
+		return this.extraURL;
+	}
+
+	public String[] getFelinealityStringArray()
+	{
+		final String[] result = Felineality.toStringArray();
+		return result;
+	}
+
+	public void setID(final Long id)
+	{
+		this.id = id;
+	}
+
+	public void setExpDate(final String expDate)
+	{
+		this.expDate = expDate;
+	}
+
+	public void setCategory(final int category)
+	{
+		this.category = category;
+	}
+
+	public void setASPCAality(final Felineality felineality)
+	{
+		this.aspcaAlity = felineality;
+	}
+}
