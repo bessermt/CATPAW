@@ -147,7 +147,6 @@
 			android:background="@color/white" 
 			android:layout_above="@id/bottomDiv" 
 			android:scrollbars="vertical" 
-			android:fadingEdge="none" 
 		/>
 
 	</RelativeLayout>
